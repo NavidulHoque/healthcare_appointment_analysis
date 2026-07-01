@@ -1,0 +1,501 @@
+patient_age,patient_gender,division,specialty,appointment_status,consultation_fee_bdt,wait_days,appointment_date
+56,Female,Chattogram,Gynecologist,Completed,914,4,2023-11-19
+19,Male,Barishal,Cardiologist,Completed,1546,6,2024-06-07
+76,Female,Dhaka,Pediatrician,Completed,725,1,2023-02-27
+65,Male,Chattogram,Cardiologist,Completed,1492,20,2024-03-17
+25,Male,Dhaka,Orthopedic,Cancelled,1331,16,2023-04-06
+79,Female,Rajshahi,General Physician,Completed,420,15,2023-11-19
+79,Male,Barishal,Gynecologist,Completed,937,17,2024-05-24
+28,Female,Barishal,Cardiologist,Cancelled,1675,8,2023-09-06
+7,Female,Dhaka,General Physician,Completed,556,12,2023-12-02
+26,Female,Mymensingh,Pediatrician,Cancelled,878,10,2024-04-06
+57,Female,Rajshahi,General Physician,Completed,531,15,2024-11-23
+6,Female,Chattogram,Gynecologist,No-show,927,9,2024-09-05
+34,Female,Khulna,Cardiologist,Completed,1659,2,2023-11-19
+42,Female,Chattogram,Orthopedic,Completed,1175,5,2023-10-20
+6,Female,Chattogram,Pediatrician,Completed,766,6,2023-03-04
+68,Male,Khulna,Cardiologist,No-show,1593,7,2024-08-22
+64,Male,Dhaka,Gynecologist,Cancelled,1061,1,2023-12-26
+25,Female,Dhaka,Pediatrician,Completed,956,7,2023-01-17
+37,Male,Chattogram,Dermatologist,Completed,971,20,2023-11-11
+62,Male,Dhaka,General Physician,No-show,486,12,2023-09-04
+26,Male,Chattogram,Gynecologist,Completed,1161,16,2023-09-26
+53,Male,Rajshahi,Dermatologist,Cancelled,1113,16,2023-10-13
+63,Female,Khulna,Cardiologist,Cancelled,1552,11,2023-02-20
+46,Female,Khulna,Orthopedic,Completed,1309,4,2024-04-26
+64,Male,Sylhet,Pediatrician,Completed,760,13,2024-08-17
+19,Female,Khulna,General Physician,Completed,667,7,2024-07-09
+66,Female,Khulna,Pediatrician,Completed,961,4,2023-01-04
+66,Male,Dhaka,Cardiologist,No-show,1617,15,2023-05-23
+51,Female,Chattogram,Pediatrician,Completed,982,19,2024-07-14
+66,Male,Chattogram,General Physician,No-show,535,9,2023-04-19
+55,Male,Dhaka,Cardiologist,Completed,1492,11,2024-01-26
+59,Female,Chattogram,Pediatrician,No-show,808,8,2023-09-03
+68,Male,Chattogram,Orthopedic,Completed,1340,1,2023-05-14
+7,Female,Sylhet,Gynecologist,Completed,1041,8,2024-11-08
+55,Female,Rangpur,Cardiologist,Completed,1690,13,2024-02-24
+11,Male,Rajshahi,Gynecologist,Cancelled,1136,4,2024-08-27
+25,Female,Dhaka,Cardiologist,Completed,1576,8,2024-11-01
+77,Female,Dhaka,Orthopedic,Cancelled,1240,3,2024-02-10
+43,Male,Mymensingh,Gynecologist,Completed,1088,9,2023-03-18
+22,Female,Mymensingh,Dermatologist,Completed,948,2,2023-10-16
+8,Female,Dhaka,General Physician,Completed,589,2,2023-01-08
+64,Female,Khulna,Dermatologist,Completed,1035,13,2024-11-01
+18,Female,Dhaka,Pediatrician,Completed,742,15,2024-02-12
+13,Male,Dhaka,Orthopedic,No-show,1189,12,2024-07-08
+57,Female,Dhaka,Dermatologist,No-show,1194,4,2024-10-24
+6,Female,Dhaka,Cardiologist,No-show,1644,8,2024-02-16
+64,Female,Rangpur,Pediatrician,Cancelled,891,9,2024-06-18
+75,Female,Khulna,Pediatrician,Completed,805,5,2023-03-04
+48,Female,Chattogram,Dermatologist,Completed,1132,20,2023-04-06
+12,Male,Khulna,Dermatologist,Completed,1164,18,2023-11-12
+51,Female,Mymensingh,Orthopedic,Cancelled,1136,11,2023-08-27
+39,Female,Rangpur,General Physician,Completed,440,15,2023-03-09
+40,Female,Dhaka,Dermatologist,Completed,916,9,2024-10-15
+54,Female,Chattogram,Dermatologist,Completed,1176,17,2024-06-16
+8,Male,Dhaka,Gynecologist,Completed,958,12,2024-01-24
+6,Male,Dhaka,Cardiologist,No-show,1582,7,2024-07-12
+10,Male,Dhaka,Gynecologist,Cancelled,940,10,2024-08-24
+58,Male,Rajshahi,Gynecologist,Completed,938,10,2024-11-23
+8,Female,Chattogram,Pediatrician,No-show,891,13,2023-08-14
+58,Female,Dhaka,General Physician,Completed,666,19,2024-03-13
+67,Female,Dhaka,Cardiologist,Completed,1546,11,2024-10-25
+22,Male,Chattogram,Orthopedic,Completed,1226,13,2024-01-02
+48,Female,Dhaka,Orthopedic,Completed,1145,8,2024-09-03
+38,Male,Chattogram,Dermatologist,Completed,944,8,2023-06-26
+78,Male,Dhaka,Dermatologist,No-show,900,4,2023-11-24
+66,Female,Dhaka,Orthopedic,Completed,1267,15,2024-09-22
+18,Female,Chattogram,Dermatologist,No-show,1007,11,2023-07-10
+52,Male,Rajshahi,General Physician,Completed,418,11,2023-01-09
+19,Male,Dhaka,Gynecologist,Completed,971,1,2024-12-26
+76,Male,Dhaka,Dermatologist,Completed,1008,17,2024-12-20
+66,Male,Dhaka,Pediatrician,Completed,967,15,2024-01-08
+44,Female,Mymensingh,Dermatologist,Completed,1139,20,2024-06-10
+57,Male,Chattogram,Cardiologist,No-show,1489,6,2024-05-19
+28,Female,Rajshahi,General Physician,Completed,502,15,2023-09-03
+30,Male,Mymensingh,Cardiologist,Completed,1649,9,2024-02-24
+64,Male,Dhaka,Cardiologist,Completed,1407,14,2024-08-05
+45,Male,Barishal,Pediatrician,Completed,852,18,2024-11-03
+33,Male,Rajshahi,General Physician,Completed,573,17,2023-05-26
+19,Male,Dhaka,General Physician,Completed,557,18,2024-02-27
+49,Male,Chattogram,General Physician,Completed,614,5,2024-10-16
+69,Female,Sylhet,General Physician,Completed,576,20,2024-11-17
+75,Male,Chattogram,General Physician,Completed,574,20,2023-11-15
+13,Female,Rangpur,Pediatrician,Completed,845,9,2024-12-03
+5,Male,Chattogram,Dermatologist,Completed,1060,11,2024-06-12
+12,Female,Khulna,Cardiologist,Completed,1526,1,2024-10-09
+67,Female,Chattogram,General Physician,No-show,481,18,2023-08-21
+15,Female,Sylhet,Dermatologist,Completed,1046,6,2024-04-12
+12,Female,Rajshahi,Dermatologist,Completed,1138,2,2024-02-26
+39,Male,Dhaka,Cardiologist,Completed,1483,15,2024-12-15
+39,Female,Dhaka,Pediatrician,No-show,812,14,2023-11-02
+37,Male,Dhaka,Orthopedic,Completed,1324,5,2024-05-23
+9,Female,Dhaka,Orthopedic,Completed,1342,6,2024-12-18
+45,Male,Dhaka,Dermatologist,Cancelled,1042,6,2024-02-20
+32,Male,Khulna,Gynecologist,Completed,940,18,2023-02-12
+11,Female,Chattogram,Gynecologist,Completed,1157,14,2023-06-23
+77,Female,Khulna,Cardiologist,Completed,1684,10,2024-11-04
+76,Female,Mymensingh,Orthopedic,Completed,1204,14,2023-10-23
+16,Female,Rajshahi,Dermatologist,No-show,1101,13,2023-09-16
+38,Female,Khulna,Pediatrician,Cancelled,965,3,2023-04-23
+37,Male,Khulna,Orthopedic,Completed,1309,6,2024-06-16
+52,Male,Chattogram,Dermatologist,Completed,950,8,2024-07-01
+27,Male,Dhaka,Dermatologist,Completed,1017,12,2023-11-22
+66,Male,Dhaka,General Physician,Completed,600,13,2023-06-25
+41,Female,Dhaka,Pediatrician,Cancelled,738,11,2023-08-02
+48,Male,Dhaka,General Physician,Completed,427,12,2024-04-03
+39,Female,Dhaka,Cardiologist,Completed,1658,1,2024-12-26
+69,Male,Barishal,General Physician,Cancelled,483,17,2023-01-21
+51,Female,Khulna,General Physician,Completed,554,16,2023-07-25
+7,Female,Dhaka,Orthopedic,Completed,1216,11,2023-03-20
+5,Male,Dhaka,Gynecologist,Completed,901,13,2023-06-17
+9,Male,Dhaka,Dermatologist,No-show,992,18,2024-02-20
+18,Male,Chattogram,Pediatrician,Completed,865,11,2023-09-22
+31,Male,Chattogram,General Physician,Completed,695,12,2024-01-21
+13,Male,Sylhet,Pediatrician,Completed,957,6,2023-06-01
+19,Male,Dhaka,Gynecologist,Completed,980,9,2023-06-20
+46,Male,Sylhet,Gynecologist,Cancelled,1167,16,2023-05-06
+55,Female,Rangpur,General Physician,Cancelled,634,4,2023-05-15
+67,Female,Dhaka,Cardiologist,Completed,1612,3,2023-01-26
+56,Female,Sylhet,General Physician,Completed,461,16,2024-10-26
+8,Male,Rajshahi,Orthopedic,Completed,1148,12,2023-12-14
+27,Female,Chattogram,Dermatologist,Completed,1026,11,2023-05-20
+19,Male,Chattogram,Cardiologist,Completed,1622,5,2023-02-15
+47,Male,Sylhet,General Physician,Cancelled,678,18,2024-07-14
+33,Female,Rajshahi,Pediatrician,Completed,993,19,2024-03-25
+40,Male,Sylhet,Cardiologist,Completed,1683,6,2024-04-21
+17,Female,Mymensingh,Cardiologist,Completed,1676,18,2024-03-24
+36,Female,Rajshahi,General Physician,Cancelled,506,6,2023-03-25
+75,Male,Rangpur,Cardiologist,Cancelled,1545,4,2023-04-26
+63,Male,Rajshahi,Pediatrician,No-show,798,12,2023-05-05
+32,Male,Rajshahi,Gynecologist,Completed,972,19,2024-01-06
+70,Female,Rajshahi,Cardiologist,Completed,1521,2,2023-04-17
+46,Male,Dhaka,Gynecologist,Cancelled,929,17,2023-12-11
+49,Male,Khulna,Pediatrician,Completed,887,11,2024-12-16
+66,Male,Chattogram,General Physician,Completed,687,11,2024-11-12
+61,Female,Chattogram,Dermatologist,Cancelled,1094,16,2024-08-15
+10,Male,Mymensingh,Cardiologist,Cancelled,1555,2,2023-10-23
+32,Male,Dhaka,Dermatologist,Completed,1071,2,2023-07-04
+32,Female,Chattogram,Pediatrician,Completed,740,8,2024-09-27
+48,Female,Khulna,Cardiologist,Completed,1462,13,2023-05-18
+34,Male,Sylhet,Gynecologist,Completed,922,10,2024-10-21
+66,Male,Chattogram,Orthopedic,Completed,1174,8,2024-04-03
+79,Male,Sylhet,Dermatologist,Cancelled,947,4,2023-08-22
+66,Female,Khulna,Cardiologist,Cancelled,1559,15,2024-09-08
+5,Male,Dhaka,Dermatologist,Cancelled,1017,1,2024-07-23
+31,Female,Dhaka,Cardiologist,Completed,1499,11,2024-07-03
+66,Female,Rajshahi,General Physician,Cancelled,566,7,2023-05-08
+7,Female,Dhaka,Gynecologist,Cancelled,1189,17,2024-04-18
+74,Male,Dhaka,Dermatologist,Completed,1055,20,2024-10-10
+76,Female,Rajshahi,Orthopedic,Cancelled,1106,18,2024-01-25
+31,Female,Dhaka,Orthopedic,Cancelled,1295,12,2024-10-20
+13,Female,Chattogram,Pediatrician,Completed,755,9,2024-10-17
+66,Male,Chattogram,Cardiologist,Completed,1592,5,2024-07-08
+41,Female,Rajshahi,Dermatologist,Completed,946,10,2024-01-23
+55,Male,Chattogram,Pediatrician,Completed,847,4,2023-01-11
+48,Male,Khulna,Dermatologist,Completed,1174,5,2023-05-05
+28,Male,Dhaka,Cardiologist,Cancelled,1556,10,2024-09-26
+63,Female,Khulna,Orthopedic,Completed,1301,11,2023-06-13
+36,Male,Chattogram,General Physician,Completed,525,10,2023-03-21
+56,Male,Barishal,Orthopedic,Completed,1393,8,2024-03-23
+66,Male,Chattogram,Pediatrician,Completed,763,2,2023-07-05
+62,Male,Rangpur,Gynecologist,Completed,1075,8,2024-06-24
+56,Female,Rajshahi,General Physician,Completed,515,16,2024-09-27
+16,Female,Dhaka,Pediatrician,Completed,903,5,2024-06-13
+43,Male,Sylhet,Cardiologist,Completed,1430,3,2024-05-06
+6,Male,Dhaka,General Physician,Completed,512,12,2024-10-05
+7,Female,Dhaka,Pediatrician,Completed,766,13,2023-07-09
+60,Male,Dhaka,Cardiologist,Cancelled,1474,13,2024-01-27
+63,Male,Chattogram,Orthopedic,Completed,1144,10,2023-12-16
+6,Female,Chattogram,Gynecologist,Cancelled,1159,4,2024-07-02
+6,Female,Chattogram,Cardiologist,Completed,1553,9,2024-03-01
+58,Male,Barishal,Dermatologist,Completed,1054,2,2024-09-08
+5,Female,Dhaka,Cardiologist,Cancelled,1633,19,2023-06-19
+23,Male,Dhaka,Cardiologist,Completed,1450,1,2024-09-11
+6,Female,Dhaka,Gynecologist,Completed,1161,7,2024-05-12
+57,Male,Dhaka,Dermatologist,Completed,1024,17,2024-07-12
+48,Male,Chattogram,Pediatrician,Completed,944,3,2024-04-07
+36,Male,Khulna,Pediatrician,Completed,729,20,2023-07-26
+74,Female,Chattogram,Cardiologist,Completed,1521,20,2024-01-13
+36,Female,Dhaka,Dermatologist,Completed,1024,3,2023-07-27
+72,Male,Chattogram,Dermatologist,Completed,936,3,2024-08-08
+59,Male,Dhaka,Gynecologist,Completed,1069,17,2023-05-22
+79,Female,Barishal,Orthopedic,Cancelled,1223,7,2023-02-26
+60,Male,Dhaka,Pediatrician,No-show,734,14,2024-05-09
+21,Male,Rajshahi,Gynecologist,Completed,986,17,2024-06-07
+42,Female,Rangpur,General Physician,Cancelled,533,18,2023-12-26
+28,Male,Chattogram,Pediatrician,Completed,895,13,2024-02-21
+73,Female,Mymensingh,Gynecologist,Completed,1173,20,2024-06-24
+74,Female,Dhaka,Pediatrician,Completed,900,20,2024-06-15
+15,Male,Khulna,Orthopedic,Cancelled,1384,18,2023-01-02
+20,Male,Chattogram,General Physician,Completed,476,4,2024-01-23
+77,Male,Khulna,Orthopedic,Completed,1158,1,2024-11-20
+63,Female,Dhaka,General Physician,Completed,525,18,2024-10-25
+74,Female,Dhaka,Cardiologist,Cancelled,1508,1,2023-03-12
+7,Female,Dhaka,Gynecologist,Cancelled,1123,13,2024-10-01
+24,Male,Khulna,General Physician,Cancelled,677,20,2023-10-23
+63,Female,Sylhet,Orthopedic,Completed,1167,20,2024-12-22
+40,Female,Khulna,Pediatrician,Completed,768,10,2023-03-08
+23,Female,Dhaka,General Physician,Completed,564,11,2024-04-05
+71,Female,Barishal,Gynecologist,Completed,1061,9,2024-02-15
+23,Female,Chattogram,General Physician,Completed,441,9,2023-09-01
+24,Female,Chattogram,Dermatologist,Completed,1008,5,2023-10-01
+75,Female,Dhaka,Pediatrician,No-show,750,1,2023-12-25
+56,Male,Khulna,Gynecologist,Cancelled,1149,17,2024-11-10
+37,Male,Dhaka,Gynecologist,Cancelled,920,2,2024-07-22
+44,Female,Rajshahi,Cardiologist,No-show,1699,13,2024-07-10
+43,Male,Sylhet,Orthopedic,Completed,1238,9,2024-06-21
+5,Female,Dhaka,Cardiologist,Completed,1491,4,2023-03-15
+15,Female,Chattogram,Gynecologist,No-show,1179,5,2024-06-17
+61,Female,Dhaka,Pediatrician,Completed,824,11,2024-12-22
+54,Male,Dhaka,General Physician,Cancelled,510,19,2024-08-06
+27,Male,Chattogram,General Physician,Completed,538,3,2024-08-03
+35,Male,Chattogram,Pediatrician,Completed,972,12,2024-11-13
+46,Female,Rajshahi,Gynecologist,Completed,998,19,2024-09-16
+11,Female,Chattogram,General Physician,No-show,651,19,2024-01-08
+20,Female,Rajshahi,General Physician,Cancelled,503,13,2023-01-15
+64,Male,Khulna,General Physician,Completed,613,7,2024-03-17
+6,Female,Rajshahi,Orthopedic,Cancelled,1348,15,2024-03-17
+5,Female,Rajshahi,Orthopedic,Completed,1251,7,2024-10-22
+52,Male,Rajshahi,Dermatologist,Completed,1149,8,2024-08-26
+16,Female,Chattogram,Cardiologist,Completed,1674,5,2023-10-13
+73,Male,Dhaka,Pediatrician,Completed,864,14,2023-01-17
+41,Male,Barishal,Pediatrician,Completed,707,4,2023-02-06
+36,Female,Rajshahi,Pediatrician,No-show,983,10,2023-02-17
+13,Male,Dhaka,Dermatologist,Cancelled,904,20,2023-03-16
+23,Female,Chattogram,Orthopedic,Completed,1244,15,2023-06-14
+52,Female,Dhaka,Gynecologist,Completed,1000,18,2024-01-13
+7,Female,Mymensingh,Gynecologist,No-show,1063,20,2023-02-06
+24,Male,Dhaka,Dermatologist,No-show,1046,13,2023-01-03
+28,Female,Dhaka,Gynecologist,Cancelled,963,8,2024-05-14
+58,Female,Chattogram,Pediatrician,Completed,790,9,2023-07-14
+37,Female,Chattogram,Cardiologist,Completed,1516,16,2024-08-15
+28,Male,Barishal,General Physician,Completed,666,19,2024-10-08
+79,Male,Dhaka,Orthopedic,Completed,1272,16,2023-01-15
+76,Female,Sylhet,Orthopedic,Completed,1146,7,2024-07-22
+40,Male,Dhaka,Dermatologist,No-show,1039,14,2023-05-27
+42,Female,Sylhet,Orthopedic,Completed,1345,14,2023-10-13
+29,Female,Dhaka,Pediatrician,Completed,848,4,2024-01-17
+22,Male,Dhaka,Gynecologist,Completed,1145,15,2024-03-21
+70,Female,Khulna,Pediatrician,Completed,704,3,2023-07-24
+58,Female,Rangpur,Dermatologist,Completed,1083,5,2024-10-03
+39,Female,Barishal,Pediatrician,Completed,719,1,2024-01-06
+65,Female,Rajshahi,Gynecologist,Completed,945,3,2023-07-05
+45,Female,Mymensingh,Cardiologist,Cancelled,1411,15,2023-05-22
+37,Male,Dhaka,Dermatologist,No-show,969,8,2024-01-26
+72,Male,Rangpur,Cardiologist,Completed,1416,4,2023-01-17
+37,Female,Chattogram,General Physician,Completed,546,2,2023-01-23
+18,Male,Khulna,Cardiologist,Cancelled,1553,10,2023-11-25
+25,Male,Sylhet,General Physician,Completed,507,4,2023-09-02
+52,Male,Khulna,General Physician,Completed,635,3,2023-11-26
+24,Female,Chattogram,Cardiologist,Cancelled,1469,2,2023-03-15
+12,Female,Chattogram,Dermatologist,Completed,1082,17,2023-05-05
+11,Female,Sylhet,Gynecologist,Completed,1149,20,2024-11-26
+71,Female,Dhaka,Pediatrician,Completed,927,13,2023-10-20
+21,Female,Rangpur,Pediatrician,Completed,801,5,2024-12-06
+37,Male,Khulna,Gynecologist,Completed,974,9,2024-09-06
+52,Female,Dhaka,General Physician,Cancelled,615,6,2024-06-27
+63,Male,Khulna,General Physician,Completed,602,5,2023-12-18
+26,Female,Chattogram,Dermatologist,Completed,1091,10,2023-09-18
+34,Female,Khulna,Orthopedic,Cancelled,1348,8,2024-08-04
+42,Male,Khulna,Cardiologist,Completed,1641,7,2023-08-17
+55,Male,Dhaka,General Physician,Completed,578,7,2024-01-25
+58,Male,Chattogram,Pediatrician,No-show,918,6,2023-09-14
+12,Male,Mymensingh,Dermatologist,Completed,981,20,2023-06-14
+31,Male,Dhaka,Cardiologist,Cancelled,1491,3,2024-09-13
+31,Female,Rajshahi,Dermatologist,Cancelled,1074,19,2024-03-07
+25,Female,Chattogram,Cardiologist,Completed,1638,15,2024-12-12
+34,Female,Chattogram,Cardiologist,Completed,1659,4,2023-03-23
+32,Female,Chattogram,Gynecologist,No-show,1062,12,2024-06-15
+68,Female,Chattogram,General Physician,Completed,447,6,2023-09-19
+73,Female,Dhaka,Dermatologist,Cancelled,1015,19,2023-07-11
+65,Male,Khulna,Dermatologist,Completed,1124,4,2023-03-15
+52,Female,Dhaka,Gynecologist,Completed,1046,15,2024-03-12
+23,Male,Dhaka,Pediatrician,Completed,762,9,2024-02-03
+8,Female,Dhaka,Pediatrician,No-show,993,5,2024-09-17
+39,Female,Dhaka,General Physician,No-show,412,13,2023-03-03
+68,Female,Chattogram,General Physician,Completed,588,18,2023-11-19
+53,Male,Rajshahi,Orthopedic,Completed,1386,5,2024-05-20
+21,Female,Sylhet,Gynecologist,Cancelled,1107,16,2023-09-04
+48,Female,Dhaka,Pediatrician,Completed,813,19,2023-08-03
+34,Male,Barishal,Cardiologist,Completed,1421,14,2024-02-26
+50,Male,Khulna,Dermatologist,Completed,1113,16,2024-03-16
+10,Female,Chattogram,General Physician,Completed,570,15,2024-02-12
+41,Male,Mymensingh,Dermatologist,No-show,953,4,2023-08-08
+28,Female,Rangpur,Dermatologist,Completed,1197,7,2023-06-24
+50,Male,Dhaka,Orthopedic,Completed,1225,16,2023-06-17
+57,Male,Chattogram,Pediatrician,Completed,976,8,2023-12-07
+64,Female,Mymensingh,General Physician,Cancelled,603,17,2023-09-11
+67,Male,Khulna,Dermatologist,Completed,1093,16,2024-08-18
+36,Female,Dhaka,General Physician,Completed,568,10,2023-04-01
+37,Male,Sylhet,Cardiologist,Completed,1551,10,2023-12-03
+71,Male,Sylhet,Orthopedic,Cancelled,1134,2,2023-04-04
+22,Female,Khulna,Cardiologist,Completed,1583,9,2024-09-13
+29,Male,Sylhet,General Physician,Completed,685,17,2024-01-06
+58,Female,Sylhet,General Physician,Completed,456,11,2024-02-26
+62,Female,Dhaka,Pediatrician,Completed,921,10,2023-02-14
+71,Female,Dhaka,Dermatologist,Completed,1062,17,2024-06-05
+50,Male,Rajshahi,Dermatologist,Cancelled,918,4,2024-04-16
+28,Male,Mymensingh,Cardiologist,Completed,1663,16,2024-11-15
+36,Female,Dhaka,Orthopedic,Cancelled,1381,20,2023-10-15
+51,Female,Rajshahi,Gynecologist,Completed,1012,15,2024-03-04
+27,Female,Khulna,Dermatologist,Cancelled,929,5,2023-03-08
+70,Male,Chattogram,Pediatrician,Completed,834,6,2023-03-27
+31,Male,Khulna,Cardiologist,Completed,1466,17,2024-06-16
+6,Female,Barishal,Cardiologist,No-show,1464,1,2023-08-16
+21,Female,Rajshahi,Gynecologist,Cancelled,1191,19,2024-11-04
+37,Female,Chattogram,Pediatrician,Completed,724,4,2023-07-13
+13,Female,Chattogram,Orthopedic,Completed,1136,17,2024-04-26
+47,Female,Rajshahi,Pediatrician,Cancelled,700,9,2024-11-13
+52,Male,Chattogram,Orthopedic,Completed,1136,2,2024-12-02
+43,Male,Chattogram,Pediatrician,Cancelled,840,8,2023-04-03
+46,Male,Chattogram,Pediatrician,Cancelled,931,15,2024-11-22
+30,Male,Dhaka,General Physician,Completed,535,7,2023-10-08
+54,Female,Dhaka,Cardiologist,Completed,1587,6,2024-11-24
+29,Male,Chattogram,Pediatrician,Completed,827,1,2023-11-15
+28,Female,Chattogram,Gynecologist,Completed,1100,15,2023-11-11
+17,Male,Dhaka,Pediatrician,Completed,826,7,2024-02-09
+64,Male,Khulna,Dermatologist,No-show,1156,17,2024-01-07
+11,Male,Khulna,Cardiologist,Completed,1563,2,2024-09-13
+61,Male,Dhaka,Dermatologist,Cancelled,934,9,2024-12-02
+40,Female,Barishal,Cardiologist,Completed,1593,9,2024-12-08
+49,Male,Chattogram,Dermatologist,Completed,1090,13,2023-02-07
+24,Female,Khulna,Pediatrician,Completed,803,6,2024-08-24
+69,Male,Rajshahi,Pediatrician,Completed,722,6,2024-09-12
+12,Male,Rangpur,General Physician,Completed,664,20,2023-04-19
+20,Male,Khulna,Gynecologist,Completed,1189,20,2024-08-07
+18,Female,Khulna,Dermatologist,Cancelled,1159,3,2024-09-10
+19,Female,Sylhet,Orthopedic,Completed,1174,17,2023-10-25
+70,Male,Dhaka,General Physician,Completed,471,17,2024-10-16
+36,Male,Dhaka,Dermatologist,Completed,1158,12,2024-05-03
+67,Female,Khulna,Dermatologist,Completed,1087,16,2024-07-10
+55,Male,Chattogram,General Physician,Completed,572,15,2023-10-06
+29,Male,Khulna,Pediatrician,Completed,989,13,2024-04-18
+62,Female,Dhaka,Dermatologist,Completed,944,1,2023-01-18
+67,Female,Chattogram,Pediatrician,Completed,760,17,2024-03-05
+66,Male,Chattogram,General Physician,Completed,482,3,2023-05-21
+26,Female,Chattogram,Pediatrician,Cancelled,822,15,2024-03-07
+62,Female,Rajshahi,Cardiologist,Completed,1415,4,2023-12-02
+62,Male,Chattogram,Orthopedic,Completed,1165,4,2023-11-11
+53,Female,Chattogram,Dermatologist,Completed,1044,18,2023-07-13
+56,Female,Chattogram,Gynecologist,Completed,1061,17,2023-12-23
+46,Male,Chattogram,Orthopedic,No-show,1333,19,2023-09-05
+74,Male,Sylhet,Pediatrician,Completed,843,11,2023-12-06
+19,Male,Dhaka,Dermatologist,Completed,1087,20,2024-06-24
+58,Female,Rajshahi,Pediatrician,Completed,712,3,2024-10-26
+64,Male,Rajshahi,Cardiologist,Completed,1583,8,2023-01-14
+12,Female,Khulna,General Physician,Completed,510,14,2023-07-12
+57,Female,Rajshahi,Dermatologist,Completed,1189,1,2023-03-04
+64,Male,Sylhet,Cardiologist,No-show,1694,14,2023-05-23
+9,Female,Rangpur,Cardiologist,Completed,1614,2,2024-10-06
+72,Male,Dhaka,Dermatologist,Completed,1019,4,2023-04-10
+10,Female,Dhaka,Pediatrician,Completed,754,19,2024-10-18
+51,Female,Chattogram,Gynecologist,Completed,926,6,2024-05-15
+59,Male,Dhaka,Cardiologist,Completed,1517,1,2023-05-08
+44,Male,Rajshahi,Orthopedic,Cancelled,1320,17,2023-06-26
+56,Male,Mymensingh,Cardiologist,Cancelled,1630,8,2024-10-09
+20,Male,Dhaka,Gynecologist,Completed,952,19,2024-12-05
+17,Male,Dhaka,Pediatrician,Cancelled,994,1,2023-10-10
+34,Male,Dhaka,Pediatrician,No-show,932,5,2023-11-20
+23,Female,Khulna,Orthopedic,Cancelled,1257,16,2023-06-06
+21,Male,Rajshahi,Cardiologist,Completed,1668,6,2024-08-16
+67,Male,Dhaka,Pediatrician,Cancelled,720,8,2024-08-24
+23,Female,Mymensingh,Gynecologist,Completed,952,13,2023-11-27
+62,Male,Sylhet,Dermatologist,No-show,1174,16,2024-09-03
+59,Female,Dhaka,General Physician,Completed,680,3,2024-08-10
+66,Female,Rajshahi,General Physician,Completed,613,19,2023-11-11
+27,Female,Sylhet,General Physician,Cancelled,430,12,2023-02-11
+13,Male,Chattogram,Cardiologist,Completed,1582,16,2024-12-17
+16,Male,Dhaka,Orthopedic,No-show,1122,11,2024-10-04
+5,Male,Dhaka,Pediatrician,No-show,731,10,2023-12-04
+62,Female,Dhaka,Dermatologist,Completed,973,20,2023-11-17
+5,Male,Sylhet,Gynecologist,Completed,909,4,2023-01-09
+38,Male,Mymensingh,Dermatologist,Completed,953,12,2023-10-19
+52,Female,Dhaka,Gynecologist,Completed,951,2,2023-02-05
+5,Male,Dhaka,Cardiologist,Completed,1547,19,2024-02-22
+20,Male,Dhaka,General Physician,Cancelled,559,5,2024-12-24
+65,Male,Dhaka,Cardiologist,Completed,1413,8,2024-03-06
+68,Female,Sylhet,Orthopedic,Completed,1277,7,2024-10-03
+67,Male,Dhaka,Orthopedic,No-show,1152,14,2023-07-22
+73,Female,Dhaka,Gynecologist,Completed,921,3,2023-02-01
+26,Female,Dhaka,Pediatrician,Completed,729,18,2023-01-20
+71,Male,Rajshahi,Pediatrician,No-show,890,16,2024-06-22
+30,Female,Chattogram,Gynecologist,Completed,1159,19,2024-09-16
+20,Male,Khulna,Orthopedic,Cancelled,1304,19,2024-03-23
+55,Male,Dhaka,Orthopedic,No-show,1158,18,2023-06-11
+61,Female,Sylhet,Orthopedic,No-show,1363,20,2024-03-13
+33,Female,Rajshahi,Cardiologist,Completed,1411,16,2023-01-27
+73,Female,Dhaka,Orthopedic,Completed,1218,8,2023-12-10
+51,Male,Chattogram,Dermatologist,Completed,1189,1,2023-05-03
+66,Male,Barishal,General Physician,Cancelled,647,17,2023-10-09
+73,Male,Mymensingh,Orthopedic,Cancelled,1226,12,2023-11-12
+20,Male,Chattogram,Gynecologist,Completed,974,11,2023-04-23
+52,Male,Chattogram,General Physician,Completed,603,5,2024-07-14
+43,Male,Mymensingh,Cardiologist,Completed,1448,12,2023-06-01
+37,Male,Rajshahi,Gynecologist,Completed,978,17,2023-10-18
+27,Male,Dhaka,General Physician,Cancelled,640,6,2024-07-17
+14,Male,Mymensingh,Gynecologist,Completed,1053,1,2023-05-27
+73,Male,Dhaka,Cardiologist,No-show,1673,5,2024-04-09
+38,Female,Rajshahi,Dermatologist,Cancelled,995,14,2024-07-09
+56,Male,Dhaka,Cardiologist,Completed,1613,5,2024-07-23
+14,Female,Dhaka,Cardiologist,Completed,1693,1,2023-06-10
+23,Female,Dhaka,Gynecologist,Completed,1108,18,2023-08-19
+62,Male,Sylhet,Pediatrician,Completed,787,16,2024-04-15
+5,Female,Dhaka,Orthopedic,Cancelled,1363,9,2023-10-05
+73,Female,Dhaka,Orthopedic,Cancelled,1256,19,2023-05-15
+8,Female,Dhaka,Dermatologist,Cancelled,1055,5,2024-04-20
+20,Male,Chattogram,Dermatologist,Completed,1038,2,2024-12-23
+28,Male,Rangpur,Orthopedic,Completed,1220,15,2023-01-25
+6,Male,Chattogram,Pediatrician,Cancelled,764,7,2024-12-02
+36,Female,Rajshahi,Orthopedic,Completed,1206,4,2024-08-13
+28,Female,Barishal,Pediatrician,Completed,846,1,2024-01-24
+16,Female,Chattogram,Dermatologist,Completed,1036,13,2023-05-16
+54,Female,Dhaka,General Physician,Completed,561,20,2023-06-15
+39,Female,Dhaka,Gynecologist,Completed,999,7,2023-06-25
+37,Male,Dhaka,Dermatologist,Completed,1040,15,2024-05-10
+37,Male,Chattogram,Dermatologist,No-show,982,14,2023-03-14
+65,Female,Chattogram,Cardiologist,Completed,1576,19,2024-05-10
+55,Male,Sylhet,Cardiologist,Completed,1597,20,2023-12-25
+47,Male,Dhaka,Cardiologist,Completed,1511,18,2023-08-14
+16,Male,Chattogram,Gynecologist,Cancelled,955,10,2024-02-26
+71,Male,Rajshahi,Cardiologist,Completed,1578,9,2023-06-23
+69,Female,Chattogram,Pediatrician,Completed,885,8,2024-09-09
+37,Female,Sylhet,Orthopedic,Completed,1317,10,2023-08-25
+44,Female,Rajshahi,General Physician,Cancelled,616,17,2023-11-14
+78,Female,Dhaka,Dermatologist,Completed,1019,2,2024-08-03
+47,Male,Khulna,Pediatrician,Cancelled,874,6,2024-08-20
+48,Male,Chattogram,General Physician,No-show,422,5,2024-07-16
+33,Female,Chattogram,Pediatrician,Completed,912,9,2023-08-02
+17,Male,Chattogram,Pediatrician,Cancelled,934,5,2023-06-10
+16,Female,Chattogram,Dermatologist,Completed,912,18,2023-02-03
+50,Female,Khulna,Orthopedic,No-show,1200,20,2024-02-11
+6,Male,Dhaka,Cardiologist,Completed,1423,9,2024-08-11
+39,Female,Dhaka,Gynecologist,Cancelled,910,17,2024-11-21
+12,Female,Dhaka,Orthopedic,Completed,1372,17,2023-01-21
+30,Female,Khulna,Gynecologist,Completed,1180,12,2023-06-22
+78,Male,Dhaka,Dermatologist,Completed,993,7,2024-06-13
+38,Male,Barishal,Dermatologist,Completed,1100,3,2023-11-07
+11,Male,Chattogram,Dermatologist,Completed,920,10,2024-04-23
+72,Male,Sylhet,General Physician,Completed,610,2,2023-12-17
+62,Male,Rangpur,Gynecologist,Completed,1039,3,2023-11-02
+79,Female,Sylhet,Orthopedic,Completed,1392,16,2024-11-12
+33,Male,Barishal,Orthopedic,Cancelled,1397,2,2023-10-25
+40,Female,Chattogram,Pediatrician,Completed,800,10,2023-03-10
+25,Female,Rajshahi,Pediatrician,Completed,727,6,2024-11-18
+40,Female,Dhaka,Pediatrician,Completed,740,11,2024-03-22
+14,Male,Dhaka,Dermatologist,Completed,1045,7,2023-01-27
+77,Female,Chattogram,Orthopedic,No-show,1355,15,2024-03-11
+28,Male,Rajshahi,Gynecologist,Completed,1126,6,2023-04-16
+68,Male,Dhaka,Dermatologist,Cancelled,1135,20,2024-11-17
+53,Female,Rajshahi,General Physician,No-show,412,9,2023-11-19
+40,Male,Barishal,Pediatrician,Cancelled,909,20,2023-05-18
+28,Male,Rajshahi,Dermatologist,Completed,1128,12,2024-03-03
+27,Female,Khulna,Dermatologist,Cancelled,999,19,2023-06-21
+66,Male,Sylhet,General Physician,No-show,430,20,2023-11-27
+41,Male,Rangpur,Cardiologist,Completed,1415,3,2024-12-26
+16,Male,Rajshahi,Orthopedic,Completed,1236,15,2024-05-16
+59,Female,Sylhet,Gynecologist,Completed,1065,2,2023-03-06
+17,Female,Rangpur,Cardiologist,Completed,1499,2,2024-06-25
+27,Male,Mymensingh,Pediatrician,Completed,808,3,2024-06-12
+34,Male,Dhaka,Dermatologist,Completed,1072,6,2023-08-11
+21,Male,Chattogram,General Physician,Completed,636,15,2023-02-15
+66,Male,Dhaka,General Physician,Completed,561,10,2024-01-15
+17,Female,Dhaka,Orthopedic,Completed,1315,9,2024-04-16
+63,Male,Rajshahi,Cardiologist,Completed,1663,1,2024-07-10
+23,Male,Khulna,Orthopedic,Completed,1362,16,2023-11-12
+53,Female,Sylhet,Dermatologist,Completed,1191,6,2023-10-13
+16,Female,Dhaka,Orthopedic,Completed,1373,9,2023-03-04
+65,Female,Barishal,Gynecologist,Cancelled,902,4,2023-03-07
+23,Male,Rajshahi,General Physician,Completed,427,2,2023-05-22
+13,Male,Khulna,General Physician,Completed,548,4,2023-05-02
+75,Male,Mymensingh,Pediatrician,Cancelled,727,1,2023-10-26
+32,Male,Rajshahi,Pediatrician,Completed,764,19,2024-03-27
+56,Female,Dhaka,Dermatologist,Completed,920,10,2024-09-27
+20,Female,Sylhet,Gynecologist,Cancelled,1151,15,2023-04-27
+73,Female,Chattogram,Cardiologist,Cancelled,1634,19,2023-03-15
+16,Female,Dhaka,Orthopedic,Completed,1326,16,2023-11-08
+29,Male,Sylhet,Dermatologist,Completed,912,4,2024-02-07
+56,Female,Dhaka,Pediatrician,No-show,748,2,2023-10-15
+57,Male,Sylhet,Orthopedic,Completed,1217,13,2024-11-23
+27,Female,Chattogram,Pediatrician,Completed,753,1,2024-09-14
+20,Male,Barishal,Orthopedic,Cancelled,1237,17,2024-04-08
+61,Male,Dhaka,Cardiologist,Completed,1452,13,2024-03-12
+43,Male,Rangpur,Dermatologist,Completed,943,4,2024-07-13
+57,Female,Sylhet,Orthopedic,Completed,1152,7,2023-08-11
+46,Male,Dhaka,Gynecologist,Cancelled,973,17,2023-11-17
+62,Male,Rajshahi,General Physician,Completed,445,9,2024-02-17
+43,Male,Rangpur,Gynecologist,Completed,912,4,2023-07-24
+18,Female,Chattogram,Gynecologist,Completed,1064,19,2024-12-04
+9,Female,Dhaka,General Physician,Completed,501,1,2024-05-21
+39,Female,Chattogram,Gynecologist,Completed,1179,10,2023-11-08
+79,Male,Chattogram,Orthopedic,Cancelled,1357,4,2023-05-05
+22,Female,Khulna,Orthopedic,Completed,1237,9,2023-03-26
+13,Male,Khulna,Orthopedic,Completed,1262,13,2023-05-16
+78,Female,Chattogram,General Physician,Cancelled,510,14,2023-12-04
+62,Female,Dhaka,Gynecologist,Completed,1001,10,2024-02-22
+21,Male,Rajshahi,General Physician,No-show,416,6,2023-04-15
+11,Male,Chattogram,Orthopedic,Completed,1367,16,2023-06-12
+50,Male,Dhaka,Gynecologist,Completed,1081,6,2023-01-05
+17,Male,Mymensingh,Gynecologist,Completed,923,17,2024-10-23
+44,Male,Khulna,Pediatrician,No-show,728,10,2023-04-16
+46,Female,Khulna,Pediatrician,Completed,870,18,2024-06-14
