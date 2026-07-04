@@ -25,7 +25,7 @@ Built a 6 panel dashboard covering all key analyses:
 ![Healthcare Analysis](healthcare_analysis.png)
 
 ### Power BI (Interactive)
-![Power BI Dashboard](/healthcare/powerbi/healthcare.png)
+![Power BI Dashboard](/powerbi/healthcare.png)
 
 A Power BI version of this dashboard is available in this repo at 
 `powerbi/healthcare.pbix` — open it in Power BI Desktop to interact with it directly.
