@@ -21,7 +21,14 @@ I analyzed 500+ appointment records to find patterns that could help healthcare 
 
 Built a 6 panel dashboard covering all key analyses:
 
+### Python (Matplotlib)
 ![Healthcare Analysis](healthcare_analysis.png)
+
+### Power BI (Interactive)
+![Power BI Dashboard](/healthcare/powerbi/healthcare.png)
+
+A Power BI version of this dashboard is available in this repo at 
+`powerbi/healthcare.pbix` — open it in Power BI Desktop to interact with it directly.
 
 | Chart | What It Shows |
 |---|---|
