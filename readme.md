@@ -106,7 +106,6 @@ Or open directly in [Google Colab](https://colab.research.google.com/) — no se
 
 - **Python** — core language
 - **Pandas** — data loading, cleaning and analysis
-- **NumPy** — numerical operations
 - **Matplotlib** — visualizations
 - **Power BI** — interactive dashboard version
 
