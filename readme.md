@@ -132,7 +132,7 @@ The goal is to eventually turn this into a complete end-to-end ML project — fr
 
 ## About
 
-Built by **Navidul Hoque** — a Backend Software Engineer transitioning into Data Science and AI Engineering.
+Built by **Navidul Hoque** — a Backend Software Engineer transitioning into Data Science and AI.
 
 This is one of my first hands-on data science projects as I work through a PGD in Data Science with ML & AI. Feedback and suggestions are welcome.
 
