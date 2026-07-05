@@ -22,10 +22,10 @@ I analyzed 500+ appointment records to find patterns that could help healthcare 
 Built a 6 panel dashboard covering all key analyses:
 
 ### Python (Matplotlib)
-![Healthcare Analysis](healthcare_analysis.png)
+![Healthcare Analysis](/src/healthcare_analysis.png)
 
 ### Power BI (Interactive)
-![Power BI Dashboard](/healthcare/powerbi/healthcare.png)
+![Power BI Dashboard](/powerbi/healthcare.png)
 
 A Power BI version of this dashboard is available in this repo at 
 `powerbi/healthcare.pbix` — open it in Power BI Desktop to interact with it directly.
@@ -69,6 +69,19 @@ The dataset contains 500 patient appointment records with the following columns:
 
 ---
 
+## Project Structure
+
+Analysis and visualization are split into separate notebooks so each stays focused and easy to maintain:
+
+| File | Purpose |
+|---|---|
+| `01_analysis.ipynb` | Loads, cleans and analyzes the appointment data. Saves results to `analysis_results.pkl`. |
+| `02_visualization.ipynb` | Loads the pickled results and renders the 6-panel dashboard. |
+
+Run them in order — `01` before `02`.
+
+---
+
 ## How to Run
 
 ```bash
@@ -76,10 +89,13 @@ The dataset contains 500 patient appointment records with the following columns:
 git clone https://github.com/yourusername/healthcare-appointment-analysis
 
 # Install dependencies
-pip install pandas numpy matplotlib
+pip install pandas matplotlib
 
 # Run the notebook
-jupyter notebook analysis.ipynb
+jupyter notebook 01_analysis.ipynb
+
+# then
+jupyter notebook 02_visualization.ipynb 
 ```
 
 Or open directly in [Google Colab](https://colab.research.google.com/) — no setup needed.
@@ -91,7 +107,8 @@ Or open directly in [Google Colab](https://colab.research.google.com/) — no se
 - **Python** — core language
 - **Pandas** — data loading, cleaning and analysis
 - **NumPy** — numerical operations
-- **Matplotlib** — visualizations *(will implement soon — see roadmap below)*
+- **Matplotlib** — visualizations
+- **Power BI** — interactive dashboard version
 
 ---
 
