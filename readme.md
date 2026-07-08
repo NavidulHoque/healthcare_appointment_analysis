@@ -113,20 +113,34 @@ Or open directly in [Google Colab](https://colab.research.google.com/) — no se
 
 ## Roadmap — What's Coming Next
 
-Next stages:
+The goal is to grow this into a complete, end-to-end project — from raw data to a decision-support system that combines AI predictions with human judgment (AI + HI), validated with proper statistical rigor.
 
-**Stage 2 — Machine Learning**
+### Stage 2 — Machine Learning Basics
 - Train a model to **predict appointment no-shows** before they happen
-- Features will include division, specialty, wait days, age group and consultation fee
-- Try Logistic Regression first, then Random Forest for comparison
-- Evaluate using accuracy, precision, recall and confusion matrix
+- Handle class imbalance (no-shows are the minority class) using techniques like `class_weight` or oversampling
+- Features: division, specialty, wait days, age group, consultation fee
+- Start with Logistic Regression (interpretable baseline), then compare against Random Forest
+- Evaluate using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC
 
-**Stage 3 — Deeper Insights**
+### Stage 3 — Statistical Foundations
 - Correlation analysis between consultation fee and no-show rate
 - Gender-based appointment pattern analysis
 - Seasonal trend analysis across 2023 vs 2024
+- Validate observed patterns with hypothesis testing:
+  - Chi-square test (e.g. gender vs. specialty, division vs. appointment status)
+  - One-way ANOVA (e.g. consultation fee vs. division)
+- Report p-values and effect sizes alongside visualizations, not just descriptive charts
 
-The goal is to eventually turn this into a complete end-to-end ML project — from raw data to a trained model that gives real, actionable predictions.
+### Stage 4 — Decision-Focused Modeling (AI + HI)
+- **Cost-sensitive evaluation**: build a cost matrix reflecting real-world impact (a missed appointment costs the clinic far more than an unnecessary reminder call) and optimize the model's decision threshold against it, rather than using a default 0.5 cutoff
+- **Model explainability with SHAP**: surface the top factors behind each individual no-show prediction, so a human reviewer (scheduler/nurse) understands *why* a patient was flagged before acting on it
+- **Human-in-the-loop simulation**: simulate a workflow where the model flags high-risk patients → staff follow up to confirm → outcomes are fed back into the training data, demonstrating how AI and human judgment work together rather than AI making decisions in isolation
+
+### Stage 5 — Validation & Generalization
+- Benchmark findings against a larger public healthcare no-show dataset (100k+ records)
+- Test whether patterns identified in this dataset (e.g. wait time vs. no-show rate) hold up at scale
+- Discuss where results agree or diverge, and why (sample size, regional/cultural context, data collection differences)
+- Reflect critically on the limitations of the original dataset and what the larger-scale comparison reveals
 
 ---
 
