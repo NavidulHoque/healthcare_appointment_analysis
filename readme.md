@@ -129,7 +129,7 @@ Or open directly in [Google Colab](https://colab.research.google.com/) — no se
 - **Pandas** — data loading, cleaning and analysis
 - **Matplotlib** — visualizations
 - **Power BI** — interactive dashboard version
-
+- **Google Sheets** — formula-based version (COUNTIF, COUNTIFS, SUMIF, AVERAGEIF, UNIQUE etc)
 ---
 
 ## Roadmap — What's Coming Next
