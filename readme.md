@@ -30,6 +30,27 @@ Built a 6 panel dashboard covering all key analyses:
 A Power BI version of this dashboard is available in this repo at 
 `powerbi/healthcare.pbix` — open it in Power BI Desktop to interact with it directly.
 
+### Google Sheets (Formula-Based)
+
+The same 6 analyses rebuilt in Google Sheets using native formulas (`COUNTIF`, `COUNTIFS`, `SUMIF`, `AVERAGEIF`, `UNIQUE` etc) and built in charts.
+
+<table>
+<tr>
+<td width="50%"><img src="/excel-sheets/Appointment Status Distribution.png" width="100%"><br><sub>Appointment Status Distribution</sub></td>
+<td width="50%"><img src="/excel-sheets/No-show Rate by Division.png" width="100%"><br><sub>No-show Rate by Division</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="/excel-sheets/Appointments and Average Wait Days by Specialty.png" width="100%"><br><sub>Specialty Demand & Avg Wait Days</sub></td>
+<td width="50%"><img src="/excel-sheets/Patient Age Group Distribution.png" width="100%"><br><sub>Patient Age Group Distribution</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="/excel-sheets/Monthly Appointment Trend.png" width="100%"><br><sub>Monthly Appointment Trend</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
+The full workbook (data + all formulas + charts) is at `excel-sheets/appointments.xlsx` — download and open in Google Sheets or Excel to inspect every formula directly.
+
 | Chart | What It Shows |
 |---|---|
 | Appointment Status Distribution | Pie chart of Completed / Cancelled / No-show rates |
@@ -37,7 +58,7 @@ A Power BI version of this dashboard is available in this repo at
 | Appointments by Doctor's Specialty | Most in demand specialties across the dataset |
 | Average Wait Days by Specialty | Which specialties make patients wait the longest |
 | Patient Age Group Distribution | Breakdown of Child, Young Adult, Middle Age and Senior patients |
-| Monthly Appointment Trend (2024) | How appointment volume changed across the year |
+| Monthly Appointment Trend | How appointment volume changed across the year |
 
 ---
 
