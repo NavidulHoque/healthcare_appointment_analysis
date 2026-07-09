@@ -22,7 +22,7 @@ I analyzed 500+ appointment records to find patterns that could help healthcare 
 Built a 6 panel dashboard covering all key analyses:
 
 ### Python (Matplotlib)
-![Healthcare Analysis](/src/healthcare_analysis.png)
+![Healthcare Analysis](/python-analysis/healthcare_analysis.png)
 
 ### Power BI (Interactive)
 ![Power BI Dashboard](/powerbi/healthcare.png)
