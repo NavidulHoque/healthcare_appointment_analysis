@@ -30,9 +30,10 @@ Built a 6 panel dashboard covering all key analyses:
 A Power BI version of this dashboard is available in this repo at 
 `powerbi/healthcare.pbix` — open it in Power BI Desktop to interact with it directly.
 
-### Google Sheets (Formula-Based)
+### Excel / Google Sheets (Formulas, Pivot Tables & Lookups)
 
-The same 6 analyses rebuilt in Google Sheets using native formulas (`COUNTIF`, `COUNTIFS`, `SUMIF`, `AVERAGEIF`, `UNIQUE` etc) and built in charts.
+The same 6 analyses rebuilt using formulas (`COUNTIF`, `COUNTIFS`, `SUMIF`, etc.), 
+pivot tables and a lookup-based fee tier mapping — all in one workbook for comparison.
 
 <table>
 <tr>
@@ -49,7 +50,8 @@ The same 6 analyses rebuilt in Google Sheets using native formulas (`COUNTIF`, `
 </tr>
 </table>
 
-The full workbook (data + all formulas + charts) is at `excel-sheets/appointments.xlsx` — download and open in Google Sheets or Excel to inspect every formula directly.
+The full workbook (data + formulas + pivot tables + lookups + charts) is at 
+`excel-sheets/appointments.xlsx` — open in Excel or Google Sheets to inspect everything directly.
 
 | Chart | What It Shows |
 |---|---|
@@ -92,34 +94,16 @@ The dataset contains 500 patient appointment records with the following columns:
 
 ## Project Structure
 
-Analysis and visualization are split into separate notebooks so each stays focused and easy to maintain:
+Analysis and visualization are split into separate notebooks so each stays focused and easy to maintain. Power BI and Excel/Google Sheets versions of the dashboard are also included as standalone files — no code needed, just open them directly.
 
-| File | Purpose |
+| File/Folder | Purpose |
 |---|---|
 | `01_analysis.ipynb` | Loads, cleans and analyzes the appointment data. Saves results to `analysis_results.pkl`. |
 | `02_visualization.ipynb` | Loads the pickled results and renders the 6-panel dashboard. |
+| `powerbi/healthcare.pbix` | Interactive Power BI version of the dashboard. Open in Power BI Desktop. |
+| `excel-sheets/appointments.xlsx` | Data + formulas + pivot tables + lookup functions + charts. Open in Excel or Google Sheets to inspect every technique directly. |
 
-Run them in order — `01` before `02`.
-
----
-
-## How to Run
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/healthcare-appointment-analysis
-
-# Install dependencies
-pip install pandas matplotlib
-
-# Run the notebook
-jupyter notebook 01_analysis.ipynb
-
-# then
-jupyter notebook 02_visualization.ipynb 
-```
-
-Or open directly in [Google Colab](https://colab.research.google.com/) — no setup needed.
+Run the notebooks in order — `01` before `02`. The Power BI and Excel files are standalone and can be opened independently at any time.
 
 ---
 
@@ -129,7 +113,8 @@ Or open directly in [Google Colab](https://colab.research.google.com/) — no se
 - **Pandas** — data loading, cleaning and analysis
 - **Matplotlib** — visualizations
 - **Power BI** — interactive dashboard version
-- **Google Sheets** — formula-based version (COUNTIF, COUNTIFS, SUMIF, AVERAGEIF, UNIQUE etc)
+- **Excel / Google Sheets** — formula-based analysis (COUNTIF, COUNTIFS, SUMIF, AVERAGEIF, UNIQUE), pivot tables and lookup functions
+
 ---
 
 ## Roadmap — What's Coming Next
