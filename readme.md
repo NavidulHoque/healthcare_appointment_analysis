@@ -2,6 +2,8 @@
 
 A data analysis project exploring patient appointment patterns across 8 divisions of Bangladesh — looking at no-show rates, specialty demand, wait times and patient demographics.
 
+> **🚧 Work in Progress:** This project is under active development — I'm currently reworking the analysis notebook to support dynamic filtering (by division and/or specialty) so any chart or summary stat can be drilled into on demand, instead of being fixed to the whole dataset. Expect the notebooks, findings, and this README to keep changing as that lands.
+
 ---
 
 ## What This Project Does
@@ -90,6 +92,8 @@ The dataset contains 500 patient appointment records with the following columns:
 - Patient age group distribution
 - Monthly appointment trend (2023–2024)
 
+**Dynamic filtering (in progress):** `01_analysis.ipynb` now has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top — set either (or both) and every analysis, the key-findings summary, and the Matplotlib dashboard re-scope to match, e.g. "only Dhaka" or "only Dhaka Cardiologists." Leave both as `None` to see the full dataset like above.
+
 ---
 
 ## Project Structure
@@ -155,5 +159,7 @@ The goal is to grow this into a complete, end-to-end project — from raw data t
 Built by **Navidul Hoque** — a Backend Software Engineer transitioning into Data Science and AI.
 
 This is one of my first hands-on data science projects as I work through a PGD in Data Science with ML & AI. Feedback and suggestions are welcome.
+
+This README updates as the project evolves — right now that means dynamic filtering, with statistical testing and ML (see Roadmap) coming next.
 
 [LinkedIn](https://www.linkedin.com/in/navidul-hoque-04b850267)
