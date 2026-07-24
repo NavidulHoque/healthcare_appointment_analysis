@@ -2,8 +2,7 @@
 
 A data analysis project exploring patient appointment patterns across 8 divisions of Bangladesh — looking at no-show rates, specialty demand, wait times and patient demographics.
 
-> **🚧 Work in Progress:** This project is under active development — I'm currently reworking the analysis notebook to support dynamic filtering (by division and/or specialty) so any chart or summary stat can be drilled into on demand, instead of being fixed to the whole dataset. Expect the notebooks, findings, and this README to keep changing as that lands.
-
+> **🚧 Work in Progress:** Dynamic filtering (by division and/or specialty) is in place across the analysis and visualization notebooks. Still tidying up a few things here before moving on to statistical testing and the ML no-show model (see Roadmap).
 ---
 
 ## What This Project Does
@@ -11,6 +10,7 @@ A data analysis project exploring patient appointment patterns across 8 division
 I analyzed 500+ appointment records to find patterns that could help healthcare providers understand patient behavior and improve service delivery.
 
 **Key findings:**
+- No strong linear correlations found between age, fee, wait time, or appointment timing (all under ~0.10) — motivates the hypothesis testing planned in Stage 3
 - Overall appointment completion rate is **68.6%**
 - **Dhaka** has the highest no-show rate at **14.6%** — likely due to traffic and urban lifestyle factors
 - **Pediatricians** are the most visited specialty with 92 appointments
@@ -85,6 +85,7 @@ The dataset contains 500 patient appointment records with the following columns:
 
 ## Analysis Covered
 
+- Correlation analysis between patient age, consultation fee, wait days, and appointment timing
 - Appointment status breakdown (Completed, Cancelled, No-show)
 - No-show rate by division
 - Most in demand specialties
@@ -92,7 +93,7 @@ The dataset contains 500 patient appointment records with the following columns:
 - Patient age group distribution
 - Monthly appointment trend (2023–2024)
 
-**Dynamic filtering (in progress):** `01_analysis.ipynb` now has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top — set either (or both) and every analysis, the key-findings summary, and the Matplotlib dashboard re-scope to match, e.g. "only Dhaka" or "only Dhaka Cardiologists." Leave both as `None` to see the full dataset like above.
+**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top — set either (or both) and every analysis, the key-findings summary, and the Matplotlib dashboard re-scope to match, e.g. "only Dhaka" or "only Dhaka Cardiologists." Leave both as `None` to see the full dataset like above.
 
 ---
 
