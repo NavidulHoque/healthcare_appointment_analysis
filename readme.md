@@ -2,16 +2,18 @@
 
 A data analysis project exploring patient appointment patterns across 8 divisions of Bangladesh — looking at no-show rates, specialty demand, wait times and patient demographics.
 
-> **🚧 Work in Progress:** Dynamic filtering (by division and/or specialty) is in place across the analysis and visualization notebooks. Still tidying up a few things here before moving on to statistical testing and the ML no-show model (see Roadmap).
 ---
 
 ## What This Project Does
 
 I analyzed 500+ appointment records to find patterns that could help healthcare providers understand patient behavior and improve service delivery.
 
+> All key findings below reflect the full 500-record dataset. 
+> Can be scoped to a specific division/specialty via dynamic filtering — see below.
+
 **Key findings:**
 - No strong linear correlations found between age, fee, wait time, or appointment timing (all under ~0.10) — motivates the hypothesis testing planned in Stage 3
-- Overall appointment completion rate is **68.6%**
+- Appointment completion rate is **68.6%**
 - **Dhaka** has the highest no-show rate at **14.6%** — likely due to traffic and urban lifestyle factors
 - **Pediatricians** are the most visited specialty with 92 appointments
 - **General Physicians** have the longest average wait time at **11.6 days**
@@ -24,6 +26,8 @@ I analyzed 500+ appointment records to find patterns that could help healthcare 
 Built a 6 panel dashboard covering all key analyses:
 
 ### Python (Matplotlib)
+The example below is rendered with `FILTER_DIVISION = "Dhaka"` active, so its numbers reflect Dhaka only — set both filters to `None` in `01_analysis.ipynb` for the full-dataset view.
+
 ![Healthcare Analysis](/python-analysis/healthcare_analysis.png)
 
 ### Power BI (Interactive)
@@ -85,15 +89,15 @@ The dataset contains 500 patient appointment records with the following columns:
 
 ## Analysis Covered
 
-- Correlation analysis between patient age, consultation fee, wait days, and appointment timing
-- Appointment status breakdown (Completed, Cancelled, No-show)
-- No-show rate by division
+- Correlation analysis between patient age, consultation fee, wait days and appointment timing
+- Appointment status breakdown by division or specialty (Completed, Cancelled, No-show)
+- No-show rate by division (unaffected by filters — always full dataset)
 - Most in demand specialties
-- Average wait days by specialty
-- Patient age group distribution
+- Average wait days by specialty or by division, if a specialty only filter is active
+- Patient age group distribution by division or specialty
 - Monthly appointment trend (2023–2024)
 
-**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top — set either (or both) and every analysis, the key-findings summary, and the Matplotlib dashboard re-scope to match, e.g. "only Dhaka" or "only Dhaka Cardiologists." Leave both as `None` to see the full dataset like above.
+**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, wait days and age distribution re-scope to match; no-show rate by division and the monthly trend intentionally stay on the full dataset for comparison context. The key-findings summary and dashboard reflect whichever filter is active.
 
 ---
 
@@ -103,8 +107,9 @@ Analysis and visualization are split into separate notebooks so each stays focus
 
 | File/Folder | Purpose |
 |---|---|
-| `01_analysis.ipynb` | Loads, cleans and analyzes the appointment data. Saves results to `analysis_results.pkl`. |
-| `02_visualization.ipynb` | Loads the pickled results and renders the 6-panel dashboard. |
+| `python-analysis/01_analysis.ipynb` | Loads, cleans and analyzes the appointment data. Saves results to `analysis_results.pkl`. |
+| `python-analysis/02_visualization.ipynb` | Loads the pickled results and renders the 6-panel dashboard. |
+| `python-analysis/utils/filters.py` | `filter_appointments()` helper — applies the division/specialty filter used by `01_analysis.ipynb`. |
 | `powerbi/healthcare.pbix` | Interactive Power BI version of the dashboard. Open in Power BI Desktop. |
 | `excel-sheets/appointments.xlsx` | Data + formulas + pivot tables + lookup functions + charts. Open in Excel or Google Sheets to inspect every technique directly. |
 
