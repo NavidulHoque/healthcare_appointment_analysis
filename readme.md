@@ -97,7 +97,7 @@ The dataset contains 500 patient appointment records with the following columns:
 - Patient age group distribution by division or specialty
 - Monthly appointment trend (2023–2024)
 
-**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, wait days and age distribution re-scope to match; no-show rate by division and the monthly trend intentionally stay on the full dataset for comparison context. The key-findings summary and dashboard reflect whichever filter is active.
+**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, wait days and age distribution re-scope to match; no-show rate by division and the monthly trend intentionally stay on the full dataset for comparison context. The key findings above are always the full dataset, the Python dashboard image is committed with `FILTER_DIVISION = "Dhaka"` to demonstrate the filtering in action.
 
 ---
 
@@ -166,6 +166,6 @@ Built by **Navidul Hoque** — a Backend Software Engineer transitioning into Da
 
 This is one of my first hands-on data science projects as I work through a PGD in Data Science with ML & AI. Feedback and suggestions are welcome.
 
-This README updates as the project evolves — right now that means dynamic filtering, with statistical testing and ML (see Roadmap) coming next.
+This README updates as the project evolves — right now dynamic filtering with statistical testing and ML (see Roadmap) coming next.
 
 [LinkedIn](https://www.linkedin.com/in/navidul-hoque-04b850267)
