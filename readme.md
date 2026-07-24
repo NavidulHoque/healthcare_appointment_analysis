@@ -26,7 +26,7 @@ I analyzed 500+ appointment records to find patterns that could help healthcare 
 Built a 6 panel dashboard covering all key analyses:
 
 ### Python (Matplotlib)
-The example below is rendered with `FILTER_DIVISION = "Dhaka"` active, so its numbers reflect Dhaka only — set both filters to `None` in `01_analysis.ipynb` for the full-dataset view.
+The example below is rendered with `FILTER_DIVISION = "Dhaka"` active, so its numbers reflect Dhaka only (except No-show Rate by Division and Monthly Apointment Trend 2024) — set both filters to `None` in `01_analysis.ipynb` for the full-dataset view.
 
 ![Healthcare Analysis](/python-analysis/healthcare_analysis.png)
 
