@@ -6,7 +6,7 @@ A data analysis project exploring patient appointment patterns across 8 division
 
 ## What This Project Does
 
-I analyzed 500+ appointment records to find patterns that could help healthcare providers understand patient behavior and improve service delivery.
+I analyzed 500 appointment records to find patterns that could help healthcare providers understand patient behavior and improve service delivery.
 
 > All key findings below reflect the full 500-record dataset. 
 > Can be scoped to a specific division/specialty via dynamic filtering — see below.
@@ -26,7 +26,7 @@ I analyzed 500+ appointment records to find patterns that could help healthcare 
 Built a 6 panel dashboard covering all key analyses:
 
 ### Python (Matplotlib)
-The example below is rendered with `FILTER_DIVISION = "Dhaka"` active, so its numbers reflect Dhaka only (except No-show Rate by Division and Monthly Apointment Trend 2024) — set both filters to `None` in `01_analysis.ipynb` for the full-dataset view.
+The example below is rendered with `FILTER_DIVISION = "Dhaka"` active, so its numbers reflect Dhaka only (except No-show Rate by Division) — set both filters to `None` in `01_analysis.ipynb` for the full-dataset view.
 
 ![Healthcare Analysis](/python-analysis/healthcare_analysis.png)
 
@@ -97,7 +97,7 @@ The dataset contains 500 patient appointment records with the following columns:
 - Patient age group distribution by division or specialty
 - Monthly appointment trend (2023–2024)
 
-**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, wait days and age distribution re-scope to match; no-show rate by division and the monthly trend intentionally stay on the full dataset for comparison context. The key findings above are always the full dataset, the Python dashboard image is committed with `FILTER_DIVISION = "Dhaka"` to demonstrate the filtering in action.
+**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, average wait days, specialty demand, age distribution and monthly appointment trend re-scope to match; no-show rate by division intentionally stay on the full dataset for comparison context. The key findings above are always the full dataset, the Python dashboard image is committed with `FILTER_DIVISION = "Dhaka"` to demonstrate the filtering in action.
 
 ---
 
