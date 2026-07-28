@@ -15,9 +15,10 @@ I analyzed 500 appointment records to find patterns that could help healthcare p
 - No strong linear correlations found between age, fee, wait time, or appointment timing (all under ~0.10) — motivates the hypothesis testing planned in Stage 3
 - Appointment completion rate is **68.6%**
 - **Dhaka** has the highest no-show rate at **14.6%** — likely due to traffic and urban lifestyle factors
-- **Pediatricians** are the most visited specialty with 92 appointments
+- **Pediatricians** are the most visited specialty with **92 appointments**
 - **General Physicians** have the longest average wait time at **11.6 days**
-- **Senior patients (56+)** make up the largest patient group
+- **Senior patients (56+)** make up the largest patient group with **162 patients**
+- **Cardiologists** have the highest average consultation fee with **1557.8 BDT** 
 
 ---
 
