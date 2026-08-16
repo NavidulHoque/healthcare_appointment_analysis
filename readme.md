@@ -1,6 +1,6 @@
 # Bangladesh Healthcare Appointment Analysis
 
-A data analysis project exploring patient appointment patterns across 8 divisions of Bangladesh — looking at no-show rates, specialty demand, wait times and patient demographics.
+A healthcare analytics project analyzing 500 appointment records across 8 divisions of Bangladesh to identify appointment patterns, waiting-time trends and no-show behavior with a deeper operational performance review using Excel.
 
 ---
 
@@ -12,13 +12,14 @@ I analyzed 500 appointment records to find patterns that could help healthcare p
 > Can be scoped to a specific division/specialty via dynamic filtering — see below.
 
 **Key findings:**
-- No strong linear correlations found between age, fee, wait time, or appointment timing (all under ~0.10) — motivates the hypothesis testing planned in Stage 3
-- Appointment completion rate is **68.6%**
-- **Dhaka** has the highest no-show rate at **14.6%** — likely due to traffic and urban lifestyle factors
-- **Pediatricians** are the most visited specialty with **92 appointments**
-- **General Physicians** have the longest average wait time at **11.6 days**
-- **Senior patients (56+)** make up the largest patient group with **162 patients**
-- **Cardiologists** have the highest average consultation fee with **1557.8 BDT** 
+
+* No strong linear correlations found between age, fee, wait time, or appointment timing (all under ~0.10) — motivates the hypothesis testing planned in Stage 3
+* Appointment completion rate is **68.6%**
+* **Dhaka** has the highest overall no-show rate at **14.6%** across the full dataset
+* **Pediatricians** are the most visited specialty with **92 appointments**
+* **General Physicians** have the longest overall average wait time at **11.6 days**
+* **Senior patients (56+)** make up the largest patient group with **162 patients**
+* **Cardiologists** have the highest average consultation fee with **1557.8 BDT**
 
 ---
 
@@ -37,37 +38,33 @@ The example below is rendered with `FILTER_DIVISION = "Dhaka"` active, so its nu
 A Power BI version of this dashboard is available in this repo at 
 `powerbi/healthcare.pbix` — open it in Power BI Desktop to interact with it directly.
 
-### Excel / Google Sheets (Formulas, Pivot Tables & Lookups)
+### Excel (Detailed Business Analysis)
 
-The same 6 analyses rebuilt using formulas (`COUNTIF`, `COUNTIFS`, `SUMIF`, etc.), 
-pivot tables and a lookup-based fee tier mapping — all in one workbook for comparison.
+The Excel workbook goes beyond reproducing the initial dashboard analyses. It conducted a **detailed operational analysis of patient waiting times and appointment no-shows**, comparing performance across **2023 and 2024**.
 
-<table>
-<tr>
-<td width="50%"><img src="/excel-sheets/Appointment Status Distribution.png" width="100%"><br><sub>Appointment Status Distribution</sub></td>
-<td width="50%"><img src="/excel-sheets/No-show Rate by Division.png" width="100%"><br><sub>No-show Rate by Division</sub></td>
-</tr>
-<tr>
-<td width="50%"><img src="/excel-sheets/Appointments and Average Wait Days by Specialty.png" width="100%"><br><sub>Specialty Demand & Avg Wait Days</sub></td>
-<td width="50%"><img src="/excel-sheets/Patient Age Group Distribution.png" width="100%"><br><sub>Patient Age Group Distribution</sub></td>
-</tr>
-<tr>
-<td width="50%"><img src="/excel-sheets/Monthly Appointment Trend.png" width="100%"><br><sub>Monthly Appointment Trend</sub></td>
-<td width="50%"></td>
-</tr>
-</table>
+The analysis examines changes across divisions, age groups and specialties and translates the findings into **business implications and suggested areas for further investigation**.
 
-The full workbook (data + formulas + pivot tables + lookups + charts) is at 
-`excel-sheets/appointments.xlsx` — open in Excel or Google Sheets to inspect everything directly.
+A separate report was created based on this detailed Excel analysis:
 
-| Chart | What It Shows |
-|---|---|
-| Appointment Status Distribution | Pie chart of Completed / Cancelled / No-show rates |
-| No-show Rate by Division | Which divisions have the highest missed appointments |
-| Appointments by Doctor's Specialty | Most in demand specialties across the dataset |
-| Average Wait Days by Specialty | Which specialties make patients wait the longest |
-| Patient Age Group Distribution | Breakdown of Child, Young Adult, Middle Age and Senior patients |
-| Monthly Appointment Trend | How appointment volume changed across the year |
+**[Detailed Analysis Report](https://drive.google.com/file/d/1d-OLGyjTmccbRypC3Rd5giu9S-_EOt4c/view?usp=sharing)**
+
+Only selected dashboard visualizations are shown below for a quick overview. The complete set of visualizations, formulas, pivot tables, lookups and detailed analysis can be explored directly by opening the Excel workbook.
+
+![Excel Dashboard](/excel-sheets/image1.png)
+![Excel Dashboard](/excel-sheets/image2.png)
+
+The full workbook (data + formulas + pivot tables + lookups + charts) is at
+`excel-sheets/appointments.xlsx` — open it in Excel or Google Sheets to explore the complete analysis and all visualizations.
+
+
+| Chart                              | What It Shows                                                   |
+| ---------------------------------- | --------------------------------------------------------------- |
+| Appointment Status Distribution    | Pie chart of Completed / Cancelled / No-show rates              |
+| No-show Rate by Division           | Which divisions have the highest missed appointments            |
+| Appointments by Doctor's Specialty | Most in demand specialties across the dataset                   |
+| Average Wait Days by Specialty     | Which specialties make patients wait the longest                |
+| Patient Age Group Distribution     | Breakdown of Child, Young Adult, Middle Age and Senior patients |
+| Monthly Appointment Trend          | How appointment volume changed across the year                  |
 
 ---
 
@@ -75,28 +72,28 @@ The full workbook (data + formulas + pivot tables + lookups + charts) is at
 
 The dataset contains 500 patient appointment records with the following columns:
 
-| Column | Description |
-|---|---|
-| `patient_age` | Age of the patient |
-| `patient_gender` | Male / Female |
-| `division` | One of 8 Bangladesh divisions |
-| `specialty` | Doctor specialty type |
-| `appointment_status` | Completed / Cancelled / No-show |
-| `consultation_fee_bdt` | Fee in Bangladeshi Taka |
-| `wait_days` | Days waited before appointment |
-| `appointment_date` | Date of appointment (2023–2024) |
+| Column                 | Description                     |
+| ---------------------- | ------------------------------- |
+| `patient_age`          | Age of the patient              |
+| `patient_gender`       | Male / Female                   |
+| `division`             | One of 8 Bangladesh divisions   |
+| `specialty`            | Doctor specialty type           |
+| `appointment_status`   | Completed / Cancelled / No-show |
+| `consultation_fee_bdt` | Fee in Bangladeshi Taka         |
+| `wait_days`            | Days waited before appointment  |
+| `appointment_date`     | Date of appointment (2023–2024) |
 
 ---
 
 ## Analysis Covered
 
-- Correlation analysis between patient age, consultation fee, wait days and appointment timing
-- Appointment status breakdown by division or specialty (Completed, Cancelled, No-show)
-- No-show rate by division (unaffected by filters — always full dataset)
-- Most in demand specialties
-- Average wait days by specialty or by division, if a specialty only filter is active
-- Patient age group distribution by division or specialty
-- Monthly appointment trend (2023–2024)
+* Correlation analysis between patient age, consultation fee, wait days and appointment timing
+* Appointment status breakdown by division or specialty (Completed, Cancelled, No-show)
+* No-show rate by division (unaffected by filters — always full dataset)
+* Most in demand specialties
+* Average wait days by specialty or by division, if a specialty only filter is active
+* Patient age group distribution by division or specialty
+* Monthly appointment trend (2023–2024)
 
 **Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, average wait days, specialty demand, age distribution and monthly appointment trend re-scope to match; no-show rate by division intentionally stay on the full dataset for comparison context. The key findings above are always the full dataset, the Python dashboard image is committed with `FILTER_DIVISION = "Dhaka"` to demonstrate the filtering in action.
 
@@ -120,11 +117,11 @@ Run the notebooks in order — `01` before `02`. The Power BI and Excel files ar
 
 ## Tech Stack
 
-- **Python** — core language
-- **Pandas** — data loading, cleaning and analysis
-- **Matplotlib** — visualizations
-- **Power BI** — interactive dashboard version
-- **Excel / Google Sheets** — formula-based analysis (COUNTIF, COUNTIFS, SUMIF, AVERAGEIF, UNIQUE), pivot tables and lookup functions
+* **Python** — core language
+* **Pandas** — data loading, cleaning and analysis
+* **Matplotlib** — visualizations
+* **Power BI** — interactive dashboard version
+* **Excel / Google Sheets** — formula-based analysis (COUNTIF, COUNTIFS, SUMIF, AVERAGEIF, UNIQUE), pivot tables and lookup functions
 
 ---
 
@@ -132,32 +129,51 @@ Run the notebooks in order — `01` before `02`. The Power BI and Excel files ar
 
 The goal is to grow this into a complete, end-to-end project — from raw data to a decision-support system that combines AI predictions with human judgment (AI + HI), validated with proper statistical rigor.
 
+### Stage 1 — Descriptive & Operational Analytics
+
+* Exploratory analysis using Python/Pandas
+* Correlation analysis
+* Division and specialty segmentation
+* Appointment status analysis
+* Waiting time analysis
+* No-show analysis
+* Power BI dashboard
+* Excel reproduction
+* **2023–2024 year-over-year operational review**
+* Division × age group × specialty analysis
+* Business implications and suggested areas for investigation
+
 ### Stage 2 — Machine Learning Basics
-- Train a model to **predict appointment no-shows** before they happen
-- Handle class imbalance (no-shows are the minority class) using techniques like `class_weight` or oversampling
-- Features: division, specialty, wait days, age group, consultation fee
-- Start with Logistic Regression (interpretable baseline), then compare against Random Forest
-- Evaluate using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC
+
+* Train a model to **predict appointment no-shows** before they happen
+* Handle class imbalance (no-shows are the minority class) using techniques like `class_weight` or oversampling
+* Features: division, specialty, wait days, age group, consultation fee
+* Start with Logistic Regression (interpretable baseline), then compare against Random Forest
+* Evaluate using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC
 
 ### Stage 3 — Statistical Foundations
-- Correlation analysis between consultation fee and no-show rate
-- Gender-based appointment pattern analysis
-- Seasonal trend analysis across 2023 vs 2024
-- Validate observed patterns with hypothesis testing:
-  - Chi-square test (e.g. gender vs. specialty, division vs. appointment status)
-  - One-way ANOVA (e.g. consultation fee vs. division)
-- Report p-values and effect sizes alongside visualizations, not just descriptive charts
+
+* Correlation analysis between consultation fee and no-show rate
+* Gender-based appointment pattern analysis
+* Seasonal trend analysis across 2023 vs 2024
+* Validate observed patterns with hypothesis testing:
+
+  * Chi-square test (e.g. gender vs. specialty, division vs. appointment status)
+  * One-way ANOVA (e.g. consultation fee vs. division)
+* Report p-values and effect sizes alongside visualizations, not just descriptive charts
 
 ### Stage 4 — Decision-Focused Modeling (AI + HI)
-- **Cost-sensitive evaluation**: build a cost matrix reflecting real-world impact (a missed appointment costs the clinic far more than an unnecessary reminder call) and optimize the model's decision threshold against it, rather than using a default 0.5 cutoff
-- **Model explainability with SHAP**: surface the top factors behind each individual no-show prediction, so a human reviewer (scheduler/nurse) understands *why* a patient was flagged before acting on it
-- **Human-in-the-loop simulation**: simulate a workflow where the model flags high-risk patients → staff follow up to confirm → outcomes are fed back into the training data, demonstrating how AI and human judgment work together rather than AI making decisions in isolation
+
+* **Cost-sensitive evaluation**: build a cost matrix reflecting real-world impact (a missed appointment costs the clinic far more than an unnecessary reminder call) and optimize the model's decision threshold against it, rather than using a default 0.5 cutoff
+* **Model explainability with SHAP**: surface the top factors behind each individual no-show prediction, so a human reviewer (scheduler/nurse) understands *why* a patient was flagged before acting on it
+* **Human-in-the-loop simulation**: simulate a workflow where the model flags high-risk patients → staff follow up to confirm → outcomes are fed back into the training data, demonstrating how AI and human judgment work together rather than AI making decisions in isolation
 
 ### Stage 5 — Validation & Generalization
-- Benchmark findings against a larger public healthcare no-show dataset (100k+ records)
-- Test whether patterns identified in this dataset (e.g. wait time vs. no-show rate) hold up at scale
-- Discuss where results agree or diverge, and why (sample size, regional/cultural context, data collection differences)
-- Reflect critically on the limitations of the original dataset and what the larger-scale comparison reveals
+
+* Benchmark findings against a larger public healthcare no-show dataset (100k+ records)
+* Test whether patterns identified in this dataset (e.g. wait time vs. no-show rate) hold up at scale
+* Discuss where results agree or diverge, and why (sample size, regional/cultural context, data collection differences)
+* Reflect critically on the limitations of the original dataset and what the larger-scale comparison reveals
 
 ---
 
