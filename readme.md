@@ -48,13 +48,10 @@ A separate report was created based on this detailed Excel analysis:
 
 **[Detailed Analysis Report](https://drive.google.com/file/d/1d-OLGyjTmccbRypC3Rd5giu9S-_EOt4c/view?usp=sharing)**
 
-Only selected dashboard visualizations are shown below for a quick overview. The complete set of visualizations, formulas, pivot tables, lookups and detailed analysis can be explored directly by opening the Excel workbook.
+Only selected dashboard visualizations are shown below for a quick overview. The complete set of visualizations, formulas, pivot tables, lookups and detailed analysis can be explored directly by opening the Excel workbook (`excel-sheets/appointments.xlsx`).
 
 ![Excel Dashboard](/excel-sheets/image1.png)
 ![Excel Dashboard](/excel-sheets/image2.png)
-
-The full workbook (data + formulas + pivot tables + lookups + charts) is at
-`excel-sheets/appointments.xlsx` — open it in Excel or Google Sheets to explore the complete analysis and all visualizations.
 
 
 | Chart                              | What It Shows                                                   |
