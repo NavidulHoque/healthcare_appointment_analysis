@@ -125,55 +125,83 @@ Run the notebooks in order — `01` before `02`. The Power BI and Excel files ar
 
 ---
 
-## Roadmap — What's Coming Next
+## Roadmap — Project Development Plan
 
-The goal is to grow this into a complete, end-to-end project — from raw data to a decision-support system that combines AI predictions with human judgment (AI + HI), validated with proper statistical rigor.
+The goal is to progressively develop this project from descriptive healthcare analytics into a decision-support system that combines **data analysis, predictive modeling, statistical validation, and human judgment (AI + HI)**.
+
+The stages below represent the planned development direction of the project rather than a fixed timeline. Each stage builds on the previous one, allowing the analysis to become progressively more predictive, statistically rigorous, and decision-oriented.
 
 ### Stage 1 — Descriptive & Operational Analytics
+**Status: Completed**
 
-* Exploratory analysis using Python/Pandas
-* Correlation analysis
-* Division and specialty segmentation
-* Appointment status analysis
-* Waiting time analysis
-* No-show analysis
-* Power BI dashboard
-* Excel reproduction
-* **2023–2024 year-over-year operational review**
-* Division × age group × specialty analysis
-* Business implications and suggested areas for investigation
+Establish a clear understanding of healthcare appointment patterns and identify operational areas that may require further investigation.
 
-### Stage 2 — Machine Learning Basics
+- Exploratory analysis using Python/Pandas
+- Correlation analysis
+- Division and specialty segmentation
+- Appointment status analysis
+- Waiting time analysis
+- No-show analysis
+- Power BI dashboard
+- Excel reproduction
+- **2023–2024 year-over-year operational review**
+- Division × age group × specialty analysis
+- Translation of analytical findings into business implications and suggested areas for investigation
 
-* Train a model to **predict appointment no-shows** before they happen
-* Handle class imbalance (no-shows are the minority class) using techniques like `class_weight` or oversampling
-* Features: division, specialty, wait days, age group, consultation fee
-* Start with Logistic Regression (interpretable baseline), then compare against Random Forest
-* Evaluate using accuracy, precision, recall, F1-score, confusion matrix, and ROC-AUC
+### Stage 2 — Predictive Analytics
+**Status: Next Development Stage**
 
-### Stage 3 — Statistical Foundations
+Extend the descriptive analysis into predictive modeling by exploring whether appointment no-shows can be identified before they occur.
 
-* Correlation analysis between consultation fee and no-show rate
-* Gender-based appointment pattern analysis
-* Seasonal trend analysis across 2023 vs 2024
-* Validate observed patterns with hypothesis testing:
+- Develop a model to **predict appointment no-shows**
+- Explore appropriate approaches for handling class imbalance, since no-shows represent a minority class
+- Use features such as division, specialty, waiting time, age group, and consultation fee
+- Establish an interpretable **Logistic Regression** baseline
+- Compare the baseline with a **Random Forest** model
+- Evaluate model performance using precision, recall, F1-score, confusion matrix, and ROC-AUC
+- Interpret the results in terms of their potential usefulness for appointment management rather than focusing only on predictive accuracy
 
-  * Chi-square test (e.g. gender vs. specialty, division vs. appointment status)
-  * One-way ANOVA (e.g. consultation fee vs. division)
-* Report p-values and effect sizes alongside visualizations, not just descriptive charts
+### Stage 3 — Statistical Validation
+**Status: Planned**
+
+Strengthen the findings from the earlier stages by statistically testing observed relationships and patterns.
+
+- Examine relationships between consultation fee and no-show behavior
+- Analyze gender-based appointment patterns
+- Investigate seasonal and year-over-year trends across 2023–2024
+- Validate selected observations using hypothesis testing, including:
+  - Chi-square tests for categorical relationships
+  - One-way ANOVA for differences across groups
+- Report **p-values and effect sizes** alongside visualizations to distinguish meaningful patterns from observations that may require further evidence
 
 ### Stage 4 — Decision-Focused Modeling (AI + HI)
+**Status: Advanced Development Direction**
 
-* **Cost-sensitive evaluation**: build a cost matrix reflecting real-world impact (a missed appointment costs the clinic far more than an unnecessary reminder call) and optimize the model's decision threshold against it, rather than using a default 0.5 cutoff
-* **Model explainability with SHAP**: surface the top factors behind each individual no-show prediction, so a human reviewer (scheduler/nurse) understands *why* a patient was flagged before acting on it
-* **Human-in-the-loop simulation**: simulate a workflow where the model flags high-risk patients → staff follow up to confirm → outcomes are fed back into the training data, demonstrating how AI and human judgment work together rather than AI making decisions in isolation
+Move beyond prediction toward a decision-support approach in which AI assists human decision-makers rather than replacing them.
+
+- **Cost-sensitive evaluation:** incorporate the different real-world costs of missed appointments and unnecessary follow-up actions when selecting prediction thresholds
+- **Model explainability with SHAP:** identify the factors contributing to individual no-show predictions so that staff can understand why a patient was flagged
+- **Human-in-the-loop simulation:** explore a workflow where the model identifies higher-risk appointments, staff review or follow up on those cases, and the resulting outcomes can inform future model improvement
+- Evaluate the role of human judgment alongside model predictions in operational decision-making
 
 ### Stage 5 — Validation & Generalization
+**Status: Future Development**
 
-* Benchmark findings against a larger public healthcare no-show dataset (100k+ records)
-* Test whether patterns identified in this dataset (e.g. wait time vs. no-show rate) hold up at scale
-* Discuss where results agree or diverge, and why (sample size, regional/cultural context, data collection differences)
-* Reflect critically on the limitations of the original dataset and what the larger-scale comparison reveals
+Assess whether the patterns and conclusions identified in the initial dataset remain meaningful when evaluated against a larger and more diverse dataset.
+
+- Benchmark selected findings against a larger public healthcare no-show dataset
+- Test whether relationships identified in the original dataset, such as waiting time and no-show behavior, remain consistent at a larger scale
+- Compare areas of agreement and divergence between datasets
+- Examine possible explanations for differences, including sample size, regional context, population characteristics, and data collection methods
+- Reflect on the limitations of the original dataset and how larger-scale validation affects the reliability and generalizability of the findings
+
+### Overall Direction
+
+The project is intended to evolve progressively:
+
+**Descriptive Analytics → Predictive Analytics → Statistical Validation → Decision-Focused AI → Generalization**
+
+The broader objective is not simply to build a machine learning model, but to explore how **analytics and AI can support real-world operational decisions while keeping human judgment in the decision-making process**.
 
 ---
 
@@ -183,6 +211,6 @@ Built by **Navidul Hoque** — a Backend Software Engineer transitioning into Da
 
 This is one of my first hands-on data science projects as I work through a PGD in Data Science with ML & AI. Feedback and suggestions are welcome.
 
-This README updates as the project evolves — right now dynamic filtering with statistical testing and ML (see Roadmap) coming next.
+This README will be updated as the project evolves, with predictive modeling as the next development stage.
 
 [LinkedIn](https://www.linkedin.com/in/navidul-hoque-04b850267)
