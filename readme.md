@@ -92,7 +92,7 @@ The dataset contains 500 patient appointment records with the following columns:
 * Patient age group distribution by division or specialty
 * Monthly appointment trend (2023–2024)
 
-**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, average wait days, specialty demand, age distribution and monthly appointment trend re-scope to match; no-show rate by division intentionally stay on the full dataset for comparison context. The key findings above are always the full dataset, the Python dashboard image is committed with `FILTER_DIVISION = "Dhaka"` to demonstrate the filtering in action.
+**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, average wait days, specialty demand, age distribution and monthly appointment trend re-scope to match; no-show rate by division intentionally stays on the full dataset for comparison context. The key findings above are always the full dataset, the Python dashboard image is committed with `FILTER_DIVISION = "Dhaka"` to demonstrate the filtering in action.
 
 ---
 
@@ -163,9 +163,6 @@ Extend the descriptive analysis into predictive modeling by exploring whether ap
 
 Strengthen the findings from the earlier stages by statistically testing observed relationships and patterns.
 
-- Examine relationships between consultation fee and no-show behavior
-- Analyze gender-based appointment patterns
-- Investigate seasonal and year-over-year trends across 2023–2024
 - Validate selected observations using hypothesis testing, including:
   - Chi-square tests for categorical relationships
   - One-way ANOVA for differences across groups
@@ -174,7 +171,7 @@ Strengthen the findings from the earlier stages by statistically testing observe
 ### Stage 4 — Decision-Focused Modeling (AI + HI)
 **Status: Advanced Development Direction**
 
-Move beyond prediction toward a decision-support approach in which AI assists human decision-makers rather than replacing them.
+Move beyond prediction toward a decision-support approach in which AI assists human decision-makers.
 
 - **Cost-sensitive evaluation:** incorporate the different real-world costs of missed appointments and unnecessary follow-up actions when selecting prediction thresholds
 - **Model explainability with SHAP:** identify the factors contributing to individual no-show predictions so that staff can understand why a patient was flagged
