@@ -146,7 +146,7 @@ Establish a clear understanding of healthcare appointment patterns and identify 
 - Translation of analytical findings into business implications and suggested areas for investigation
 
 ### Stage 2 — Predictive Analytics
-**Status: Next Development Stage**
+**Status: Ongoing**
 
 Extend the descriptive analysis into predictive modeling by exploring whether appointment no-shows can be identified before they occur.
 

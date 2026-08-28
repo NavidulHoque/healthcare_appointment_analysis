@@ -1,0 +1,501 @@
+patient_age,patient_gender,division,doctor_specialty,appointment_status,consultation_fee_bdt,wait_days,appointment_date,age_group,month,year,month_name
+56,Female,Chattogram,Gynecologist,Completed,914,4,2023-11-19,Senior (56+),11,2023,Nov
+19,Male,Barishal,Cardiologist,Completed,1546,6,2024-06-07,Young Adult (18-35),6,2024,Jun
+76,Female,Dhaka,Pediatrician,Completed,725,1,2023-02-27,Senior (56+),2,2023,Feb
+65,Male,Chattogram,Cardiologist,Completed,1492,20,2024-03-17,Senior (56+),3,2024,Mar
+25,Male,Dhaka,Orthopedic,Cancelled,1331,16,2023-04-06,Young Adult (18-35),4,2023,Apr
+79,Female,Rajshahi,General Physician,Completed,420,15,2023-11-19,Senior (56+),11,2023,Nov
+79,Male,Barishal,Gynecologist,Completed,937,17,2024-05-24,Senior (56+),5,2024,May
+28,Female,Barishal,Cardiologist,Cancelled,1675,8,2023-09-06,Young Adult (18-35),9,2023,Sep
+7,Female,Dhaka,General Physician,Completed,556,12,2023-12-02,Child (0-17),12,2023,Dec
+26,Female,Mymensingh,Pediatrician,Cancelled,878,10,2024-04-06,Young Adult (18-35),4,2024,Apr
+57,Female,Rajshahi,General Physician,Completed,531,15,2024-11-23,Senior (56+),11,2024,Nov
+6,Female,Chattogram,Gynecologist,No-show,927,9,2024-09-05,Child (0-17),9,2024,Sep
+34,Female,Khulna,Cardiologist,Completed,1659,2,2023-11-19,Young Adult (18-35),11,2023,Nov
+42,Female,Chattogram,Orthopedic,Completed,1175,5,2023-10-20,Middle Age (36-55),10,2023,Oct
+6,Female,Chattogram,Pediatrician,Completed,766,6,2023-03-04,Child (0-17),3,2023,Mar
+68,Male,Khulna,Cardiologist,No-show,1593,7,2024-08-22,Senior (56+),8,2024,Aug
+64,Male,Dhaka,Gynecologist,Cancelled,1061,1,2023-12-26,Senior (56+),12,2023,Dec
+25,Female,Dhaka,Pediatrician,Completed,956,7,2023-01-17,Young Adult (18-35),1,2023,Jan
+37,Male,Chattogram,Dermatologist,Completed,971,20,2023-11-11,Middle Age (36-55),11,2023,Nov
+62,Male,Dhaka,General Physician,No-show,486,12,2023-09-04,Senior (56+),9,2023,Sep
+26,Male,Chattogram,Gynecologist,Completed,1161,16,2023-09-26,Young Adult (18-35),9,2023,Sep
+53,Male,Rajshahi,Dermatologist,Cancelled,1113,16,2023-10-13,Middle Age (36-55),10,2023,Oct
+63,Female,Khulna,Cardiologist,Cancelled,1552,11,2023-02-20,Senior (56+),2,2023,Feb
+46,Female,Khulna,Orthopedic,Completed,1309,4,2024-04-26,Middle Age (36-55),4,2024,Apr
+64,Male,Sylhet,Pediatrician,Completed,760,13,2024-08-17,Senior (56+),8,2024,Aug
+19,Female,Khulna,General Physician,Completed,667,7,2024-07-09,Young Adult (18-35),7,2024,Jul
+66,Female,Khulna,Pediatrician,Completed,961,4,2023-01-04,Senior (56+),1,2023,Jan
+66,Male,Dhaka,Cardiologist,No-show,1617,15,2023-05-23,Senior (56+),5,2023,May
+51,Female,Chattogram,Pediatrician,Completed,982,19,2024-07-14,Middle Age (36-55),7,2024,Jul
+66,Male,Chattogram,General Physician,No-show,535,9,2023-04-19,Senior (56+),4,2023,Apr
+55,Male,Dhaka,Cardiologist,Completed,1492,11,2024-01-26,Middle Age (36-55),1,2024,Jan
+59,Female,Chattogram,Pediatrician,No-show,808,8,2023-09-03,Senior (56+),9,2023,Sep
+68,Male,Chattogram,Orthopedic,Completed,1340,1,2023-05-14,Senior (56+),5,2023,May
+7,Female,Sylhet,Gynecologist,Completed,1041,8,2024-11-08,Child (0-17),11,2024,Nov
+55,Female,Rangpur,Cardiologist,Completed,1690,13,2024-02-24,Middle Age (36-55),2,2024,Feb
+11,Male,Rajshahi,Gynecologist,Cancelled,1136,4,2024-08-27,Child (0-17),8,2024,Aug
+25,Female,Dhaka,Cardiologist,Completed,1576,8,2024-11-01,Young Adult (18-35),11,2024,Nov
+77,Female,Dhaka,Orthopedic,Cancelled,1240,3,2024-02-10,Senior (56+),2,2024,Feb
+43,Male,Mymensingh,Gynecologist,Completed,1088,9,2023-03-18,Middle Age (36-55),3,2023,Mar
+22,Female,Mymensingh,Dermatologist,Completed,948,2,2023-10-16,Young Adult (18-35),10,2023,Oct
+8,Female,Dhaka,General Physician,Completed,589,2,2023-01-08,Child (0-17),1,2023,Jan
+64,Female,Khulna,Dermatologist,Completed,1035,13,2024-11-01,Senior (56+),11,2024,Nov
+18,Female,Dhaka,Pediatrician,Completed,742,15,2024-02-12,Young Adult (18-35),2,2024,Feb
+13,Male,Dhaka,Orthopedic,No-show,1189,12,2024-07-08,Child (0-17),7,2024,Jul
+57,Female,Dhaka,Dermatologist,No-show,1194,4,2024-10-24,Senior (56+),10,2024,Oct
+6,Female,Dhaka,Cardiologist,No-show,1644,8,2024-02-16,Child (0-17),2,2024,Feb
+64,Female,Rangpur,Pediatrician,Cancelled,891,9,2024-06-18,Senior (56+),6,2024,Jun
+75,Female,Khulna,Pediatrician,Completed,805,5,2023-03-04,Senior (56+),3,2023,Mar
+48,Female,Chattogram,Dermatologist,Completed,1132,20,2023-04-06,Middle Age (36-55),4,2023,Apr
+12,Male,Khulna,Dermatologist,Completed,1164,18,2023-11-12,Child (0-17),11,2023,Nov
+51,Female,Mymensingh,Orthopedic,Cancelled,1136,11,2023-08-27,Middle Age (36-55),8,2023,Aug
+39,Female,Rangpur,General Physician,Completed,440,15,2023-03-09,Middle Age (36-55),3,2023,Mar
+40,Female,Dhaka,Dermatologist,Completed,916,9,2024-10-15,Middle Age (36-55),10,2024,Oct
+54,Female,Chattogram,Dermatologist,Completed,1176,17,2024-06-16,Middle Age (36-55),6,2024,Jun
+8,Male,Dhaka,Gynecologist,Completed,958,12,2024-01-24,Child (0-17),1,2024,Jan
+6,Male,Dhaka,Cardiologist,No-show,1582,7,2024-07-12,Child (0-17),7,2024,Jul
+10,Male,Dhaka,Gynecologist,Cancelled,940,10,2024-08-24,Child (0-17),8,2024,Aug
+58,Male,Rajshahi,Gynecologist,Completed,938,10,2024-11-23,Senior (56+),11,2024,Nov
+8,Female,Chattogram,Pediatrician,No-show,891,13,2023-08-14,Child (0-17),8,2023,Aug
+58,Female,Dhaka,General Physician,Completed,666,19,2024-03-13,Senior (56+),3,2024,Mar
+67,Female,Dhaka,Cardiologist,Completed,1546,11,2024-10-25,Senior (56+),10,2024,Oct
+22,Male,Chattogram,Orthopedic,Completed,1226,13,2024-01-02,Young Adult (18-35),1,2024,Jan
+48,Female,Dhaka,Orthopedic,Completed,1145,8,2024-09-03,Middle Age (36-55),9,2024,Sep
+38,Male,Chattogram,Dermatologist,Completed,944,8,2023-06-26,Middle Age (36-55),6,2023,Jun
+78,Male,Dhaka,Dermatologist,No-show,900,4,2023-11-24,Senior (56+),11,2023,Nov
+66,Female,Dhaka,Orthopedic,Completed,1267,15,2024-09-22,Senior (56+),9,2024,Sep
+18,Female,Chattogram,Dermatologist,No-show,1007,11,2023-07-10,Young Adult (18-35),7,2023,Jul
+52,Male,Rajshahi,General Physician,Completed,418,11,2023-01-09,Middle Age (36-55),1,2023,Jan
+19,Male,Dhaka,Gynecologist,Completed,971,1,2024-12-26,Young Adult (18-35),12,2024,Dec
+76,Male,Dhaka,Dermatologist,Completed,1008,17,2024-12-20,Senior (56+),12,2024,Dec
+66,Male,Dhaka,Pediatrician,Completed,967,15,2024-01-08,Senior (56+),1,2024,Jan
+44,Female,Mymensingh,Dermatologist,Completed,1139,20,2024-06-10,Middle Age (36-55),6,2024,Jun
+57,Male,Chattogram,Cardiologist,No-show,1489,6,2024-05-19,Senior (56+),5,2024,May
+28,Female,Rajshahi,General Physician,Completed,502,15,2023-09-03,Young Adult (18-35),9,2023,Sep
+30,Male,Mymensingh,Cardiologist,Completed,1649,9,2024-02-24,Young Adult (18-35),2,2024,Feb
+64,Male,Dhaka,Cardiologist,Completed,1407,14,2024-08-05,Senior (56+),8,2024,Aug
+45,Male,Barishal,Pediatrician,Completed,852,18,2024-11-03,Middle Age (36-55),11,2024,Nov
+33,Male,Rajshahi,General Physician,Completed,573,17,2023-05-26,Young Adult (18-35),5,2023,May
+19,Male,Dhaka,General Physician,Completed,557,18,2024-02-27,Young Adult (18-35),2,2024,Feb
+49,Male,Chattogram,General Physician,Completed,614,5,2024-10-16,Middle Age (36-55),10,2024,Oct
+69,Female,Sylhet,General Physician,Completed,576,20,2024-11-17,Senior (56+),11,2024,Nov
+75,Male,Chattogram,General Physician,Completed,574,20,2023-11-15,Senior (56+),11,2023,Nov
+13,Female,Rangpur,Pediatrician,Completed,845,9,2024-12-03,Child (0-17),12,2024,Dec
+5,Male,Chattogram,Dermatologist,Completed,1060,11,2024-06-12,Child (0-17),6,2024,Jun
+12,Female,Khulna,Cardiologist,Completed,1526,1,2024-10-09,Child (0-17),10,2024,Oct
+67,Female,Chattogram,General Physician,No-show,481,18,2023-08-21,Senior (56+),8,2023,Aug
+15,Female,Sylhet,Dermatologist,Completed,1046,6,2024-04-12,Child (0-17),4,2024,Apr
+12,Female,Rajshahi,Dermatologist,Completed,1138,2,2024-02-26,Child (0-17),2,2024,Feb
+39,Male,Dhaka,Cardiologist,Completed,1483,15,2024-12-15,Middle Age (36-55),12,2024,Dec
+39,Female,Dhaka,Pediatrician,No-show,812,14,2023-11-02,Middle Age (36-55),11,2023,Nov
+37,Male,Dhaka,Orthopedic,Completed,1324,5,2024-05-23,Middle Age (36-55),5,2024,May
+9,Female,Dhaka,Orthopedic,Completed,1342,6,2024-12-18,Child (0-17),12,2024,Dec
+45,Male,Dhaka,Dermatologist,Cancelled,1042,6,2024-02-20,Middle Age (36-55),2,2024,Feb
+32,Male,Khulna,Gynecologist,Completed,940,18,2023-02-12,Young Adult (18-35),2,2023,Feb
+11,Female,Chattogram,Gynecologist,Completed,1157,14,2023-06-23,Child (0-17),6,2023,Jun
+77,Female,Khulna,Cardiologist,Completed,1684,10,2024-11-04,Senior (56+),11,2024,Nov
+76,Female,Mymensingh,Orthopedic,Completed,1204,14,2023-10-23,Senior (56+),10,2023,Oct
+16,Female,Rajshahi,Dermatologist,No-show,1101,13,2023-09-16,Child (0-17),9,2023,Sep
+38,Female,Khulna,Pediatrician,Cancelled,965,3,2023-04-23,Middle Age (36-55),4,2023,Apr
+37,Male,Khulna,Orthopedic,Completed,1309,6,2024-06-16,Middle Age (36-55),6,2024,Jun
+52,Male,Chattogram,Dermatologist,Completed,950,8,2024-07-01,Middle Age (36-55),7,2024,Jul
+27,Male,Dhaka,Dermatologist,Completed,1017,12,2023-11-22,Young Adult (18-35),11,2023,Nov
+66,Male,Dhaka,General Physician,Completed,600,13,2023-06-25,Senior (56+),6,2023,Jun
+41,Female,Dhaka,Pediatrician,Cancelled,738,11,2023-08-02,Middle Age (36-55),8,2023,Aug
+48,Male,Dhaka,General Physician,Completed,427,12,2024-04-03,Middle Age (36-55),4,2024,Apr
+39,Female,Dhaka,Cardiologist,Completed,1658,1,2024-12-26,Middle Age (36-55),12,2024,Dec
+69,Male,Barishal,General Physician,Cancelled,483,17,2023-01-21,Senior (56+),1,2023,Jan
+51,Female,Khulna,General Physician,Completed,554,16,2023-07-25,Middle Age (36-55),7,2023,Jul
+7,Female,Dhaka,Orthopedic,Completed,1216,11,2023-03-20,Child (0-17),3,2023,Mar
+5,Male,Dhaka,Gynecologist,Completed,901,13,2023-06-17,Child (0-17),6,2023,Jun
+9,Male,Dhaka,Dermatologist,No-show,992,18,2024-02-20,Child (0-17),2,2024,Feb
+18,Male,Chattogram,Pediatrician,Completed,865,11,2023-09-22,Young Adult (18-35),9,2023,Sep
+31,Male,Chattogram,General Physician,Completed,695,12,2024-01-21,Young Adult (18-35),1,2024,Jan
+13,Male,Sylhet,Pediatrician,Completed,957,6,2023-06-01,Child (0-17),6,2023,Jun
+19,Male,Dhaka,Gynecologist,Completed,980,9,2023-06-20,Young Adult (18-35),6,2023,Jun
+46,Male,Sylhet,Gynecologist,Cancelled,1167,16,2023-05-06,Middle Age (36-55),5,2023,May
+55,Female,Rangpur,General Physician,Cancelled,634,4,2023-05-15,Middle Age (36-55),5,2023,May
+67,Female,Dhaka,Cardiologist,Completed,1612,3,2023-01-26,Senior (56+),1,2023,Jan
+56,Female,Sylhet,General Physician,Completed,461,16,2024-10-26,Senior (56+),10,2024,Oct
+8,Male,Rajshahi,Orthopedic,Completed,1148,12,2023-12-14,Child (0-17),12,2023,Dec
+27,Female,Chattogram,Dermatologist,Completed,1026,11,2023-05-20,Young Adult (18-35),5,2023,May
+19,Male,Chattogram,Cardiologist,Completed,1622,5,2023-02-15,Young Adult (18-35),2,2023,Feb
+47,Male,Sylhet,General Physician,Cancelled,678,18,2024-07-14,Middle Age (36-55),7,2024,Jul
+33,Female,Rajshahi,Pediatrician,Completed,993,19,2024-03-25,Young Adult (18-35),3,2024,Mar
+40,Male,Sylhet,Cardiologist,Completed,1683,6,2024-04-21,Middle Age (36-55),4,2024,Apr
+17,Female,Mymensingh,Cardiologist,Completed,1676,18,2024-03-24,Child (0-17),3,2024,Mar
+36,Female,Rajshahi,General Physician,Cancelled,506,6,2023-03-25,Middle Age (36-55),3,2023,Mar
+75,Male,Rangpur,Cardiologist,Cancelled,1545,4,2023-04-26,Senior (56+),4,2023,Apr
+63,Male,Rajshahi,Pediatrician,No-show,798,12,2023-05-05,Senior (56+),5,2023,May
+32,Male,Rajshahi,Gynecologist,Completed,972,19,2024-01-06,Young Adult (18-35),1,2024,Jan
+70,Female,Rajshahi,Cardiologist,Completed,1521,2,2023-04-17,Senior (56+),4,2023,Apr
+46,Male,Dhaka,Gynecologist,Cancelled,929,17,2023-12-11,Middle Age (36-55),12,2023,Dec
+49,Male,Khulna,Pediatrician,Completed,887,11,2024-12-16,Middle Age (36-55),12,2024,Dec
+66,Male,Chattogram,General Physician,Completed,687,11,2024-11-12,Senior (56+),11,2024,Nov
+61,Female,Chattogram,Dermatologist,Cancelled,1094,16,2024-08-15,Senior (56+),8,2024,Aug
+10,Male,Mymensingh,Cardiologist,Cancelled,1555,2,2023-10-23,Child (0-17),10,2023,Oct
+32,Male,Dhaka,Dermatologist,Completed,1071,2,2023-07-04,Young Adult (18-35),7,2023,Jul
+32,Female,Chattogram,Pediatrician,Completed,740,8,2024-09-27,Young Adult (18-35),9,2024,Sep
+48,Female,Khulna,Cardiologist,Completed,1462,13,2023-05-18,Middle Age (36-55),5,2023,May
+34,Male,Sylhet,Gynecologist,Completed,922,10,2024-10-21,Young Adult (18-35),10,2024,Oct
+66,Male,Chattogram,Orthopedic,Completed,1174,8,2024-04-03,Senior (56+),4,2024,Apr
+79,Male,Sylhet,Dermatologist,Cancelled,947,4,2023-08-22,Senior (56+),8,2023,Aug
+66,Female,Khulna,Cardiologist,Cancelled,1559,15,2024-09-08,Senior (56+),9,2024,Sep
+5,Male,Dhaka,Dermatologist,Cancelled,1017,1,2024-07-23,Child (0-17),7,2024,Jul
+31,Female,Dhaka,Cardiologist,Completed,1499,11,2024-07-03,Young Adult (18-35),7,2024,Jul
+66,Female,Rajshahi,General Physician,Cancelled,566,7,2023-05-08,Senior (56+),5,2023,May
+7,Female,Dhaka,Gynecologist,Cancelled,1189,17,2024-04-18,Child (0-17),4,2024,Apr
+74,Male,Dhaka,Dermatologist,Completed,1055,20,2024-10-10,Senior (56+),10,2024,Oct
+76,Female,Rajshahi,Orthopedic,Cancelled,1106,18,2024-01-25,Senior (56+),1,2024,Jan
+31,Female,Dhaka,Orthopedic,Cancelled,1295,12,2024-10-20,Young Adult (18-35),10,2024,Oct
+13,Female,Chattogram,Pediatrician,Completed,755,9,2024-10-17,Child (0-17),10,2024,Oct
+66,Male,Chattogram,Cardiologist,Completed,1592,5,2024-07-08,Senior (56+),7,2024,Jul
+41,Female,Rajshahi,Dermatologist,Completed,946,10,2024-01-23,Middle Age (36-55),1,2024,Jan
+55,Male,Chattogram,Pediatrician,Completed,847,4,2023-01-11,Middle Age (36-55),1,2023,Jan
+48,Male,Khulna,Dermatologist,Completed,1174,5,2023-05-05,Middle Age (36-55),5,2023,May
+28,Male,Dhaka,Cardiologist,Cancelled,1556,10,2024-09-26,Young Adult (18-35),9,2024,Sep
+63,Female,Khulna,Orthopedic,Completed,1301,11,2023-06-13,Senior (56+),6,2023,Jun
+36,Male,Chattogram,General Physician,Completed,525,10,2023-03-21,Middle Age (36-55),3,2023,Mar
+56,Male,Barishal,Orthopedic,Completed,1393,8,2024-03-23,Senior (56+),3,2024,Mar
+66,Male,Chattogram,Pediatrician,Completed,763,2,2023-07-05,Senior (56+),7,2023,Jul
+62,Male,Rangpur,Gynecologist,Completed,1075,8,2024-06-24,Senior (56+),6,2024,Jun
+56,Female,Rajshahi,General Physician,Completed,515,16,2024-09-27,Senior (56+),9,2024,Sep
+16,Female,Dhaka,Pediatrician,Completed,903,5,2024-06-13,Child (0-17),6,2024,Jun
+43,Male,Sylhet,Cardiologist,Completed,1430,3,2024-05-06,Middle Age (36-55),5,2024,May
+6,Male,Dhaka,General Physician,Completed,512,12,2024-10-05,Child (0-17),10,2024,Oct
+7,Female,Dhaka,Pediatrician,Completed,766,13,2023-07-09,Child (0-17),7,2023,Jul
+60,Male,Dhaka,Cardiologist,Cancelled,1474,13,2024-01-27,Senior (56+),1,2024,Jan
+63,Male,Chattogram,Orthopedic,Completed,1144,10,2023-12-16,Senior (56+),12,2023,Dec
+6,Female,Chattogram,Gynecologist,Cancelled,1159,4,2024-07-02,Child (0-17),7,2024,Jul
+6,Female,Chattogram,Cardiologist,Completed,1553,9,2024-03-01,Child (0-17),3,2024,Mar
+58,Male,Barishal,Dermatologist,Completed,1054,2,2024-09-08,Senior (56+),9,2024,Sep
+5,Female,Dhaka,Cardiologist,Cancelled,1633,19,2023-06-19,Child (0-17),6,2023,Jun
+23,Male,Dhaka,Cardiologist,Completed,1450,1,2024-09-11,Young Adult (18-35),9,2024,Sep
+6,Female,Dhaka,Gynecologist,Completed,1161,7,2024-05-12,Child (0-17),5,2024,May
+57,Male,Dhaka,Dermatologist,Completed,1024,17,2024-07-12,Senior (56+),7,2024,Jul
+48,Male,Chattogram,Pediatrician,Completed,944,3,2024-04-07,Middle Age (36-55),4,2024,Apr
+36,Male,Khulna,Pediatrician,Completed,729,20,2023-07-26,Middle Age (36-55),7,2023,Jul
+74,Female,Chattogram,Cardiologist,Completed,1521,20,2024-01-13,Senior (56+),1,2024,Jan
+36,Female,Dhaka,Dermatologist,Completed,1024,3,2023-07-27,Middle Age (36-55),7,2023,Jul
+72,Male,Chattogram,Dermatologist,Completed,936,3,2024-08-08,Senior (56+),8,2024,Aug
+59,Male,Dhaka,Gynecologist,Completed,1069,17,2023-05-22,Senior (56+),5,2023,May
+79,Female,Barishal,Orthopedic,Cancelled,1223,7,2023-02-26,Senior (56+),2,2023,Feb
+60,Male,Dhaka,Pediatrician,No-show,734,14,2024-05-09,Senior (56+),5,2024,May
+21,Male,Rajshahi,Gynecologist,Completed,986,17,2024-06-07,Young Adult (18-35),6,2024,Jun
+42,Female,Rangpur,General Physician,Cancelled,533,18,2023-12-26,Middle Age (36-55),12,2023,Dec
+28,Male,Chattogram,Pediatrician,Completed,895,13,2024-02-21,Young Adult (18-35),2,2024,Feb
+73,Female,Mymensingh,Gynecologist,Completed,1173,20,2024-06-24,Senior (56+),6,2024,Jun
+74,Female,Dhaka,Pediatrician,Completed,900,20,2024-06-15,Senior (56+),6,2024,Jun
+15,Male,Khulna,Orthopedic,Cancelled,1384,18,2023-01-02,Child (0-17),1,2023,Jan
+20,Male,Chattogram,General Physician,Completed,476,4,2024-01-23,Young Adult (18-35),1,2024,Jan
+77,Male,Khulna,Orthopedic,Completed,1158,1,2024-11-20,Senior (56+),11,2024,Nov
+63,Female,Dhaka,General Physician,Completed,525,18,2024-10-25,Senior (56+),10,2024,Oct
+74,Female,Dhaka,Cardiologist,Cancelled,1508,1,2023-03-12,Senior (56+),3,2023,Mar
+7,Female,Dhaka,Gynecologist,Cancelled,1123,13,2024-10-01,Child (0-17),10,2024,Oct
+24,Male,Khulna,General Physician,Cancelled,677,20,2023-10-23,Young Adult (18-35),10,2023,Oct
+63,Female,Sylhet,Orthopedic,Completed,1167,20,2024-12-22,Senior (56+),12,2024,Dec
+40,Female,Khulna,Pediatrician,Completed,768,10,2023-03-08,Middle Age (36-55),3,2023,Mar
+23,Female,Dhaka,General Physician,Completed,564,11,2024-04-05,Young Adult (18-35),4,2024,Apr
+71,Female,Barishal,Gynecologist,Completed,1061,9,2024-02-15,Senior (56+),2,2024,Feb
+23,Female,Chattogram,General Physician,Completed,441,9,2023-09-01,Young Adult (18-35),9,2023,Sep
+24,Female,Chattogram,Dermatologist,Completed,1008,5,2023-10-01,Young Adult (18-35),10,2023,Oct
+75,Female,Dhaka,Pediatrician,No-show,750,1,2023-12-25,Senior (56+),12,2023,Dec
+56,Male,Khulna,Gynecologist,Cancelled,1149,17,2024-11-10,Senior (56+),11,2024,Nov
+37,Male,Dhaka,Gynecologist,Cancelled,920,2,2024-07-22,Middle Age (36-55),7,2024,Jul
+44,Female,Rajshahi,Cardiologist,No-show,1699,13,2024-07-10,Middle Age (36-55),7,2024,Jul
+43,Male,Sylhet,Orthopedic,Completed,1238,9,2024-06-21,Middle Age (36-55),6,2024,Jun
+5,Female,Dhaka,Cardiologist,Completed,1491,4,2023-03-15,Child (0-17),3,2023,Mar
+15,Female,Chattogram,Gynecologist,No-show,1179,5,2024-06-17,Child (0-17),6,2024,Jun
+61,Female,Dhaka,Pediatrician,Completed,824,11,2024-12-22,Senior (56+),12,2024,Dec
+54,Male,Dhaka,General Physician,Cancelled,510,19,2024-08-06,Middle Age (36-55),8,2024,Aug
+27,Male,Chattogram,General Physician,Completed,538,3,2024-08-03,Young Adult (18-35),8,2024,Aug
+35,Male,Chattogram,Pediatrician,Completed,972,12,2024-11-13,Young Adult (18-35),11,2024,Nov
+46,Female,Rajshahi,Gynecologist,Completed,998,19,2024-09-16,Middle Age (36-55),9,2024,Sep
+11,Female,Chattogram,General Physician,No-show,651,19,2024-01-08,Child (0-17),1,2024,Jan
+20,Female,Rajshahi,General Physician,Cancelled,503,13,2023-01-15,Young Adult (18-35),1,2023,Jan
+64,Male,Khulna,General Physician,Completed,613,7,2024-03-17,Senior (56+),3,2024,Mar
+6,Female,Rajshahi,Orthopedic,Cancelled,1348,15,2024-03-17,Child (0-17),3,2024,Mar
+5,Female,Rajshahi,Orthopedic,Completed,1251,7,2024-10-22,Child (0-17),10,2024,Oct
+52,Male,Rajshahi,Dermatologist,Completed,1149,8,2024-08-26,Middle Age (36-55),8,2024,Aug
+16,Female,Chattogram,Cardiologist,Completed,1674,5,2023-10-13,Child (0-17),10,2023,Oct
+73,Male,Dhaka,Pediatrician,Completed,864,14,2023-01-17,Senior (56+),1,2023,Jan
+41,Male,Barishal,Pediatrician,Completed,707,4,2023-02-06,Middle Age (36-55),2,2023,Feb
+36,Female,Rajshahi,Pediatrician,No-show,983,10,2023-02-17,Middle Age (36-55),2,2023,Feb
+13,Male,Dhaka,Dermatologist,Cancelled,904,20,2023-03-16,Child (0-17),3,2023,Mar
+23,Female,Chattogram,Orthopedic,Completed,1244,15,2023-06-14,Young Adult (18-35),6,2023,Jun
+52,Female,Dhaka,Gynecologist,Completed,1000,18,2024-01-13,Middle Age (36-55),1,2024,Jan
+7,Female,Mymensingh,Gynecologist,No-show,1063,20,2023-02-06,Child (0-17),2,2023,Feb
+24,Male,Dhaka,Dermatologist,No-show,1046,13,2023-01-03,Young Adult (18-35),1,2023,Jan
+28,Female,Dhaka,Gynecologist,Cancelled,963,8,2024-05-14,Young Adult (18-35),5,2024,May
+58,Female,Chattogram,Pediatrician,Completed,790,9,2023-07-14,Senior (56+),7,2023,Jul
+37,Female,Chattogram,Cardiologist,Completed,1516,16,2024-08-15,Middle Age (36-55),8,2024,Aug
+28,Male,Barishal,General Physician,Completed,666,19,2024-10-08,Young Adult (18-35),10,2024,Oct
+79,Male,Dhaka,Orthopedic,Completed,1272,16,2023-01-15,Senior (56+),1,2023,Jan
+76,Female,Sylhet,Orthopedic,Completed,1146,7,2024-07-22,Senior (56+),7,2024,Jul
+40,Male,Dhaka,Dermatologist,No-show,1039,14,2023-05-27,Middle Age (36-55),5,2023,May
+42,Female,Sylhet,Orthopedic,Completed,1345,14,2023-10-13,Middle Age (36-55),10,2023,Oct
+29,Female,Dhaka,Pediatrician,Completed,848,4,2024-01-17,Young Adult (18-35),1,2024,Jan
+22,Male,Dhaka,Gynecologist,Completed,1145,15,2024-03-21,Young Adult (18-35),3,2024,Mar
+70,Female,Khulna,Pediatrician,Completed,704,3,2023-07-24,Senior (56+),7,2023,Jul
+58,Female,Rangpur,Dermatologist,Completed,1083,5,2024-10-03,Senior (56+),10,2024,Oct
+39,Female,Barishal,Pediatrician,Completed,719,1,2024-01-06,Middle Age (36-55),1,2024,Jan
+65,Female,Rajshahi,Gynecologist,Completed,945,3,2023-07-05,Senior (56+),7,2023,Jul
+45,Female,Mymensingh,Cardiologist,Cancelled,1411,15,2023-05-22,Middle Age (36-55),5,2023,May
+37,Male,Dhaka,Dermatologist,No-show,969,8,2024-01-26,Middle Age (36-55),1,2024,Jan
+72,Male,Rangpur,Cardiologist,Completed,1416,4,2023-01-17,Senior (56+),1,2023,Jan
+37,Female,Chattogram,General Physician,Completed,546,2,2023-01-23,Middle Age (36-55),1,2023,Jan
+18,Male,Khulna,Cardiologist,Cancelled,1553,10,2023-11-25,Young Adult (18-35),11,2023,Nov
+25,Male,Sylhet,General Physician,Completed,507,4,2023-09-02,Young Adult (18-35),9,2023,Sep
+52,Male,Khulna,General Physician,Completed,635,3,2023-11-26,Middle Age (36-55),11,2023,Nov
+24,Female,Chattogram,Cardiologist,Cancelled,1469,2,2023-03-15,Young Adult (18-35),3,2023,Mar
+12,Female,Chattogram,Dermatologist,Completed,1082,17,2023-05-05,Child (0-17),5,2023,May
+11,Female,Sylhet,Gynecologist,Completed,1149,20,2024-11-26,Child (0-17),11,2024,Nov
+71,Female,Dhaka,Pediatrician,Completed,927,13,2023-10-20,Senior (56+),10,2023,Oct
+21,Female,Rangpur,Pediatrician,Completed,801,5,2024-12-06,Young Adult (18-35),12,2024,Dec
+37,Male,Khulna,Gynecologist,Completed,974,9,2024-09-06,Middle Age (36-55),9,2024,Sep
+52,Female,Dhaka,General Physician,Cancelled,615,6,2024-06-27,Middle Age (36-55),6,2024,Jun
+63,Male,Khulna,General Physician,Completed,602,5,2023-12-18,Senior (56+),12,2023,Dec
+26,Female,Chattogram,Dermatologist,Completed,1091,10,2023-09-18,Young Adult (18-35),9,2023,Sep
+34,Female,Khulna,Orthopedic,Cancelled,1348,8,2024-08-04,Young Adult (18-35),8,2024,Aug
+42,Male,Khulna,Cardiologist,Completed,1641,7,2023-08-17,Middle Age (36-55),8,2023,Aug
+55,Male,Dhaka,General Physician,Completed,578,7,2024-01-25,Middle Age (36-55),1,2024,Jan
+58,Male,Chattogram,Pediatrician,No-show,918,6,2023-09-14,Senior (56+),9,2023,Sep
+12,Male,Mymensingh,Dermatologist,Completed,981,20,2023-06-14,Child (0-17),6,2023,Jun
+31,Male,Dhaka,Cardiologist,Cancelled,1491,3,2024-09-13,Young Adult (18-35),9,2024,Sep
+31,Female,Rajshahi,Dermatologist,Cancelled,1074,19,2024-03-07,Young Adult (18-35),3,2024,Mar
+25,Female,Chattogram,Cardiologist,Completed,1638,15,2024-12-12,Young Adult (18-35),12,2024,Dec
+34,Female,Chattogram,Cardiologist,Completed,1659,4,2023-03-23,Young Adult (18-35),3,2023,Mar
+32,Female,Chattogram,Gynecologist,No-show,1062,12,2024-06-15,Young Adult (18-35),6,2024,Jun
+68,Female,Chattogram,General Physician,Completed,447,6,2023-09-19,Senior (56+),9,2023,Sep
+73,Female,Dhaka,Dermatologist,Cancelled,1015,19,2023-07-11,Senior (56+),7,2023,Jul
+65,Male,Khulna,Dermatologist,Completed,1124,4,2023-03-15,Senior (56+),3,2023,Mar
+52,Female,Dhaka,Gynecologist,Completed,1046,15,2024-03-12,Middle Age (36-55),3,2024,Mar
+23,Male,Dhaka,Pediatrician,Completed,762,9,2024-02-03,Young Adult (18-35),2,2024,Feb
+8,Female,Dhaka,Pediatrician,No-show,993,5,2024-09-17,Child (0-17),9,2024,Sep
+39,Female,Dhaka,General Physician,No-show,412,13,2023-03-03,Middle Age (36-55),3,2023,Mar
+68,Female,Chattogram,General Physician,Completed,588,18,2023-11-19,Senior (56+),11,2023,Nov
+53,Male,Rajshahi,Orthopedic,Completed,1386,5,2024-05-20,Middle Age (36-55),5,2024,May
+21,Female,Sylhet,Gynecologist,Cancelled,1107,16,2023-09-04,Young Adult (18-35),9,2023,Sep
+48,Female,Dhaka,Pediatrician,Completed,813,19,2023-08-03,Middle Age (36-55),8,2023,Aug
+34,Male,Barishal,Cardiologist,Completed,1421,14,2024-02-26,Young Adult (18-35),2,2024,Feb
+50,Male,Khulna,Dermatologist,Completed,1113,16,2024-03-16,Middle Age (36-55),3,2024,Mar
+10,Female,Chattogram,General Physician,Completed,570,15,2024-02-12,Child (0-17),2,2024,Feb
+41,Male,Mymensingh,Dermatologist,No-show,953,4,2023-08-08,Middle Age (36-55),8,2023,Aug
+28,Female,Rangpur,Dermatologist,Completed,1197,7,2023-06-24,Young Adult (18-35),6,2023,Jun
+50,Male,Dhaka,Orthopedic,Completed,1225,16,2023-06-17,Middle Age (36-55),6,2023,Jun
+57,Male,Chattogram,Pediatrician,Completed,976,8,2023-12-07,Senior (56+),12,2023,Dec
+64,Female,Mymensingh,General Physician,Cancelled,603,17,2023-09-11,Senior (56+),9,2023,Sep
+67,Male,Khulna,Dermatologist,Completed,1093,16,2024-08-18,Senior (56+),8,2024,Aug
+36,Female,Dhaka,General Physician,Completed,568,10,2023-04-01,Middle Age (36-55),4,2023,Apr
+37,Male,Sylhet,Cardiologist,Completed,1551,10,2023-12-03,Middle Age (36-55),12,2023,Dec
+71,Male,Sylhet,Orthopedic,Cancelled,1134,2,2023-04-04,Senior (56+),4,2023,Apr
+22,Female,Khulna,Cardiologist,Completed,1583,9,2024-09-13,Young Adult (18-35),9,2024,Sep
+29,Male,Sylhet,General Physician,Completed,685,17,2024-01-06,Young Adult (18-35),1,2024,Jan
+58,Female,Sylhet,General Physician,Completed,456,11,2024-02-26,Senior (56+),2,2024,Feb
+62,Female,Dhaka,Pediatrician,Completed,921,10,2023-02-14,Senior (56+),2,2023,Feb
+71,Female,Dhaka,Dermatologist,Completed,1062,17,2024-06-05,Senior (56+),6,2024,Jun
+50,Male,Rajshahi,Dermatologist,Cancelled,918,4,2024-04-16,Middle Age (36-55),4,2024,Apr
+28,Male,Mymensingh,Cardiologist,Completed,1663,16,2024-11-15,Young Adult (18-35),11,2024,Nov
+36,Female,Dhaka,Orthopedic,Cancelled,1381,20,2023-10-15,Middle Age (36-55),10,2023,Oct
+51,Female,Rajshahi,Gynecologist,Completed,1012,15,2024-03-04,Middle Age (36-55),3,2024,Mar
+27,Female,Khulna,Dermatologist,Cancelled,929,5,2023-03-08,Young Adult (18-35),3,2023,Mar
+70,Male,Chattogram,Pediatrician,Completed,834,6,2023-03-27,Senior (56+),3,2023,Mar
+31,Male,Khulna,Cardiologist,Completed,1466,17,2024-06-16,Young Adult (18-35),6,2024,Jun
+6,Female,Barishal,Cardiologist,No-show,1464,1,2023-08-16,Child (0-17),8,2023,Aug
+21,Female,Rajshahi,Gynecologist,Cancelled,1191,19,2024-11-04,Young Adult (18-35),11,2024,Nov
+37,Female,Chattogram,Pediatrician,Completed,724,4,2023-07-13,Middle Age (36-55),7,2023,Jul
+13,Female,Chattogram,Orthopedic,Completed,1136,17,2024-04-26,Child (0-17),4,2024,Apr
+47,Female,Rajshahi,Pediatrician,Cancelled,700,9,2024-11-13,Middle Age (36-55),11,2024,Nov
+52,Male,Chattogram,Orthopedic,Completed,1136,2,2024-12-02,Middle Age (36-55),12,2024,Dec
+43,Male,Chattogram,Pediatrician,Cancelled,840,8,2023-04-03,Middle Age (36-55),4,2023,Apr
+46,Male,Chattogram,Pediatrician,Cancelled,931,15,2024-11-22,Middle Age (36-55),11,2024,Nov
+30,Male,Dhaka,General Physician,Completed,535,7,2023-10-08,Young Adult (18-35),10,2023,Oct
+54,Female,Dhaka,Cardiologist,Completed,1587,6,2024-11-24,Middle Age (36-55),11,2024,Nov
+29,Male,Chattogram,Pediatrician,Completed,827,1,2023-11-15,Young Adult (18-35),11,2023,Nov
+28,Female,Chattogram,Gynecologist,Completed,1100,15,2023-11-11,Young Adult (18-35),11,2023,Nov
+17,Male,Dhaka,Pediatrician,Completed,826,7,2024-02-09,Child (0-17),2,2024,Feb
+64,Male,Khulna,Dermatologist,No-show,1156,17,2024-01-07,Senior (56+),1,2024,Jan
+11,Male,Khulna,Cardiologist,Completed,1563,2,2024-09-13,Child (0-17),9,2024,Sep
+61,Male,Dhaka,Dermatologist,Cancelled,934,9,2024-12-02,Senior (56+),12,2024,Dec
+40,Female,Barishal,Cardiologist,Completed,1593,9,2024-12-08,Middle Age (36-55),12,2024,Dec
+49,Male,Chattogram,Dermatologist,Completed,1090,13,2023-02-07,Middle Age (36-55),2,2023,Feb
+24,Female,Khulna,Pediatrician,Completed,803,6,2024-08-24,Young Adult (18-35),8,2024,Aug
+69,Male,Rajshahi,Pediatrician,Completed,722,6,2024-09-12,Senior (56+),9,2024,Sep
+12,Male,Rangpur,General Physician,Completed,664,20,2023-04-19,Child (0-17),4,2023,Apr
+20,Male,Khulna,Gynecologist,Completed,1189,20,2024-08-07,Young Adult (18-35),8,2024,Aug
+18,Female,Khulna,Dermatologist,Cancelled,1159,3,2024-09-10,Young Adult (18-35),9,2024,Sep
+19,Female,Sylhet,Orthopedic,Completed,1174,17,2023-10-25,Young Adult (18-35),10,2023,Oct
+70,Male,Dhaka,General Physician,Completed,471,17,2024-10-16,Senior (56+),10,2024,Oct
+36,Male,Dhaka,Dermatologist,Completed,1158,12,2024-05-03,Middle Age (36-55),5,2024,May
+67,Female,Khulna,Dermatologist,Completed,1087,16,2024-07-10,Senior (56+),7,2024,Jul
+55,Male,Chattogram,General Physician,Completed,572,15,2023-10-06,Middle Age (36-55),10,2023,Oct
+29,Male,Khulna,Pediatrician,Completed,989,13,2024-04-18,Young Adult (18-35),4,2024,Apr
+62,Female,Dhaka,Dermatologist,Completed,944,1,2023-01-18,Senior (56+),1,2023,Jan
+67,Female,Chattogram,Pediatrician,Completed,760,17,2024-03-05,Senior (56+),3,2024,Mar
+66,Male,Chattogram,General Physician,Completed,482,3,2023-05-21,Senior (56+),5,2023,May
+26,Female,Chattogram,Pediatrician,Cancelled,822,15,2024-03-07,Young Adult (18-35),3,2024,Mar
+62,Female,Rajshahi,Cardiologist,Completed,1415,4,2023-12-02,Senior (56+),12,2023,Dec
+62,Male,Chattogram,Orthopedic,Completed,1165,4,2023-11-11,Senior (56+),11,2023,Nov
+53,Female,Chattogram,Dermatologist,Completed,1044,18,2023-07-13,Middle Age (36-55),7,2023,Jul
+56,Female,Chattogram,Gynecologist,Completed,1061,17,2023-12-23,Senior (56+),12,2023,Dec
+46,Male,Chattogram,Orthopedic,No-show,1333,19,2023-09-05,Middle Age (36-55),9,2023,Sep
+74,Male,Sylhet,Pediatrician,Completed,843,11,2023-12-06,Senior (56+),12,2023,Dec
+19,Male,Dhaka,Dermatologist,Completed,1087,20,2024-06-24,Young Adult (18-35),6,2024,Jun
+58,Female,Rajshahi,Pediatrician,Completed,712,3,2024-10-26,Senior (56+),10,2024,Oct
+64,Male,Rajshahi,Cardiologist,Completed,1583,8,2023-01-14,Senior (56+),1,2023,Jan
+12,Female,Khulna,General Physician,Completed,510,14,2023-07-12,Child (0-17),7,2023,Jul
+57,Female,Rajshahi,Dermatologist,Completed,1189,1,2023-03-04,Senior (56+),3,2023,Mar
+64,Male,Sylhet,Cardiologist,No-show,1694,14,2023-05-23,Senior (56+),5,2023,May
+9,Female,Rangpur,Cardiologist,Completed,1614,2,2024-10-06,Child (0-17),10,2024,Oct
+72,Male,Dhaka,Dermatologist,Completed,1019,4,2023-04-10,Senior (56+),4,2023,Apr
+10,Female,Dhaka,Pediatrician,Completed,754,19,2024-10-18,Child (0-17),10,2024,Oct
+51,Female,Chattogram,Gynecologist,Completed,926,6,2024-05-15,Middle Age (36-55),5,2024,May
+59,Male,Dhaka,Cardiologist,Completed,1517,1,2023-05-08,Senior (56+),5,2023,May
+44,Male,Rajshahi,Orthopedic,Cancelled,1320,17,2023-06-26,Middle Age (36-55),6,2023,Jun
+56,Male,Mymensingh,Cardiologist,Cancelled,1630,8,2024-10-09,Senior (56+),10,2024,Oct
+20,Male,Dhaka,Gynecologist,Completed,952,19,2024-12-05,Young Adult (18-35),12,2024,Dec
+17,Male,Dhaka,Pediatrician,Cancelled,994,1,2023-10-10,Child (0-17),10,2023,Oct
+34,Male,Dhaka,Pediatrician,No-show,932,5,2023-11-20,Young Adult (18-35),11,2023,Nov
+23,Female,Khulna,Orthopedic,Cancelled,1257,16,2023-06-06,Young Adult (18-35),6,2023,Jun
+21,Male,Rajshahi,Cardiologist,Completed,1668,6,2024-08-16,Young Adult (18-35),8,2024,Aug
+67,Male,Dhaka,Pediatrician,Cancelled,720,8,2024-08-24,Senior (56+),8,2024,Aug
+23,Female,Mymensingh,Gynecologist,Completed,952,13,2023-11-27,Young Adult (18-35),11,2023,Nov
+62,Male,Sylhet,Dermatologist,No-show,1174,16,2024-09-03,Senior (56+),9,2024,Sep
+59,Female,Dhaka,General Physician,Completed,680,3,2024-08-10,Senior (56+),8,2024,Aug
+66,Female,Rajshahi,General Physician,Completed,613,19,2023-11-11,Senior (56+),11,2023,Nov
+27,Female,Sylhet,General Physician,Cancelled,430,12,2023-02-11,Young Adult (18-35),2,2023,Feb
+13,Male,Chattogram,Cardiologist,Completed,1582,16,2024-12-17,Child (0-17),12,2024,Dec
+16,Male,Dhaka,Orthopedic,No-show,1122,11,2024-10-04,Child (0-17),10,2024,Oct
+5,Male,Dhaka,Pediatrician,No-show,731,10,2023-12-04,Child (0-17),12,2023,Dec
+62,Female,Dhaka,Dermatologist,Completed,973,20,2023-11-17,Senior (56+),11,2023,Nov
+5,Male,Sylhet,Gynecologist,Completed,909,4,2023-01-09,Child (0-17),1,2023,Jan
+38,Male,Mymensingh,Dermatologist,Completed,953,12,2023-10-19,Middle Age (36-55),10,2023,Oct
+52,Female,Dhaka,Gynecologist,Completed,951,2,2023-02-05,Middle Age (36-55),2,2023,Feb
+5,Male,Dhaka,Cardiologist,Completed,1547,19,2024-02-22,Child (0-17),2,2024,Feb
+20,Male,Dhaka,General Physician,Cancelled,559,5,2024-12-24,Young Adult (18-35),12,2024,Dec
+65,Male,Dhaka,Cardiologist,Completed,1413,8,2024-03-06,Senior (56+),3,2024,Mar
+68,Female,Sylhet,Orthopedic,Completed,1277,7,2024-10-03,Senior (56+),10,2024,Oct
+67,Male,Dhaka,Orthopedic,No-show,1152,14,2023-07-22,Senior (56+),7,2023,Jul
+73,Female,Dhaka,Gynecologist,Completed,921,3,2023-02-01,Senior (56+),2,2023,Feb
+26,Female,Dhaka,Pediatrician,Completed,729,18,2023-01-20,Young Adult (18-35),1,2023,Jan
+71,Male,Rajshahi,Pediatrician,No-show,890,16,2024-06-22,Senior (56+),6,2024,Jun
+30,Female,Chattogram,Gynecologist,Completed,1159,19,2024-09-16,Young Adult (18-35),9,2024,Sep
+20,Male,Khulna,Orthopedic,Cancelled,1304,19,2024-03-23,Young Adult (18-35),3,2024,Mar
+55,Male,Dhaka,Orthopedic,No-show,1158,18,2023-06-11,Middle Age (36-55),6,2023,Jun
+61,Female,Sylhet,Orthopedic,No-show,1363,20,2024-03-13,Senior (56+),3,2024,Mar
+33,Female,Rajshahi,Cardiologist,Completed,1411,16,2023-01-27,Young Adult (18-35),1,2023,Jan
+73,Female,Dhaka,Orthopedic,Completed,1218,8,2023-12-10,Senior (56+),12,2023,Dec
+51,Male,Chattogram,Dermatologist,Completed,1189,1,2023-05-03,Middle Age (36-55),5,2023,May
+66,Male,Barishal,General Physician,Cancelled,647,17,2023-10-09,Senior (56+),10,2023,Oct
+73,Male,Mymensingh,Orthopedic,Cancelled,1226,12,2023-11-12,Senior (56+),11,2023,Nov
+20,Male,Chattogram,Gynecologist,Completed,974,11,2023-04-23,Young Adult (18-35),4,2023,Apr
+52,Male,Chattogram,General Physician,Completed,603,5,2024-07-14,Middle Age (36-55),7,2024,Jul
+43,Male,Mymensingh,Cardiologist,Completed,1448,12,2023-06-01,Middle Age (36-55),6,2023,Jun
+37,Male,Rajshahi,Gynecologist,Completed,978,17,2023-10-18,Middle Age (36-55),10,2023,Oct
+27,Male,Dhaka,General Physician,Cancelled,640,6,2024-07-17,Young Adult (18-35),7,2024,Jul
+14,Male,Mymensingh,Gynecologist,Completed,1053,1,2023-05-27,Child (0-17),5,2023,May
+73,Male,Dhaka,Cardiologist,No-show,1673,5,2024-04-09,Senior (56+),4,2024,Apr
+38,Female,Rajshahi,Dermatologist,Cancelled,995,14,2024-07-09,Middle Age (36-55),7,2024,Jul
+56,Male,Dhaka,Cardiologist,Completed,1613,5,2024-07-23,Senior (56+),7,2024,Jul
+14,Female,Dhaka,Cardiologist,Completed,1693,1,2023-06-10,Child (0-17),6,2023,Jun
+23,Female,Dhaka,Gynecologist,Completed,1108,18,2023-08-19,Young Adult (18-35),8,2023,Aug
+62,Male,Sylhet,Pediatrician,Completed,787,16,2024-04-15,Senior (56+),4,2024,Apr
+5,Female,Dhaka,Orthopedic,Cancelled,1363,9,2023-10-05,Child (0-17),10,2023,Oct
+73,Female,Dhaka,Orthopedic,Cancelled,1256,19,2023-05-15,Senior (56+),5,2023,May
+8,Female,Dhaka,Dermatologist,Cancelled,1055,5,2024-04-20,Child (0-17),4,2024,Apr
+20,Male,Chattogram,Dermatologist,Completed,1038,2,2024-12-23,Young Adult (18-35),12,2024,Dec
+28,Male,Rangpur,Orthopedic,Completed,1220,15,2023-01-25,Young Adult (18-35),1,2023,Jan
+6,Male,Chattogram,Pediatrician,Cancelled,764,7,2024-12-02,Child (0-17),12,2024,Dec
+36,Female,Rajshahi,Orthopedic,Completed,1206,4,2024-08-13,Middle Age (36-55),8,2024,Aug
+28,Female,Barishal,Pediatrician,Completed,846,1,2024-01-24,Young Adult (18-35),1,2024,Jan
+16,Female,Chattogram,Dermatologist,Completed,1036,13,2023-05-16,Child (0-17),5,2023,May
+54,Female,Dhaka,General Physician,Completed,561,20,2023-06-15,Middle Age (36-55),6,2023,Jun
+39,Female,Dhaka,Gynecologist,Completed,999,7,2023-06-25,Middle Age (36-55),6,2023,Jun
+37,Male,Dhaka,Dermatologist,Completed,1040,15,2024-05-10,Middle Age (36-55),5,2024,May
+37,Male,Chattogram,Dermatologist,No-show,982,14,2023-03-14,Middle Age (36-55),3,2023,Mar
+65,Female,Chattogram,Cardiologist,Completed,1576,19,2024-05-10,Senior (56+),5,2024,May
+55,Male,Sylhet,Cardiologist,Completed,1597,20,2023-12-25,Middle Age (36-55),12,2023,Dec
+47,Male,Dhaka,Cardiologist,Completed,1511,18,2023-08-14,Middle Age (36-55),8,2023,Aug
+16,Male,Chattogram,Gynecologist,Cancelled,955,10,2024-02-26,Child (0-17),2,2024,Feb
+71,Male,Rajshahi,Cardiologist,Completed,1578,9,2023-06-23,Senior (56+),6,2023,Jun
+69,Female,Chattogram,Pediatrician,Completed,885,8,2024-09-09,Senior (56+),9,2024,Sep
+37,Female,Sylhet,Orthopedic,Completed,1317,10,2023-08-25,Middle Age (36-55),8,2023,Aug
+44,Female,Rajshahi,General Physician,Cancelled,616,17,2023-11-14,Middle Age (36-55),11,2023,Nov
+78,Female,Dhaka,Dermatologist,Completed,1019,2,2024-08-03,Senior (56+),8,2024,Aug
+47,Male,Khulna,Pediatrician,Cancelled,874,6,2024-08-20,Middle Age (36-55),8,2024,Aug
+48,Male,Chattogram,General Physician,No-show,422,5,2024-07-16,Middle Age (36-55),7,2024,Jul
+33,Female,Chattogram,Pediatrician,Completed,912,9,2023-08-02,Young Adult (18-35),8,2023,Aug
+17,Male,Chattogram,Pediatrician,Cancelled,934,5,2023-06-10,Child (0-17),6,2023,Jun
+16,Female,Chattogram,Dermatologist,Completed,912,18,2023-02-03,Child (0-17),2,2023,Feb
+50,Female,Khulna,Orthopedic,No-show,1200,20,2024-02-11,Middle Age (36-55),2,2024,Feb
+6,Male,Dhaka,Cardiologist,Completed,1423,9,2024-08-11,Child (0-17),8,2024,Aug
+39,Female,Dhaka,Gynecologist,Cancelled,910,17,2024-11-21,Middle Age (36-55),11,2024,Nov
+12,Female,Dhaka,Orthopedic,Completed,1372,17,2023-01-21,Child (0-17),1,2023,Jan
+30,Female,Khulna,Gynecologist,Completed,1180,12,2023-06-22,Young Adult (18-35),6,2023,Jun
+78,Male,Dhaka,Dermatologist,Completed,993,7,2024-06-13,Senior (56+),6,2024,Jun
+38,Male,Barishal,Dermatologist,Completed,1100,3,2023-11-07,Middle Age (36-55),11,2023,Nov
+11,Male,Chattogram,Dermatologist,Completed,920,10,2024-04-23,Child (0-17),4,2024,Apr
+72,Male,Sylhet,General Physician,Completed,610,2,2023-12-17,Senior (56+),12,2023,Dec
+62,Male,Rangpur,Gynecologist,Completed,1039,3,2023-11-02,Senior (56+),11,2023,Nov
+79,Female,Sylhet,Orthopedic,Completed,1392,16,2024-11-12,Senior (56+),11,2024,Nov
+33,Male,Barishal,Orthopedic,Cancelled,1397,2,2023-10-25,Young Adult (18-35),10,2023,Oct
+40,Female,Chattogram,Pediatrician,Completed,800,10,2023-03-10,Middle Age (36-55),3,2023,Mar
+25,Female,Rajshahi,Pediatrician,Completed,727,6,2024-11-18,Young Adult (18-35),11,2024,Nov
+40,Female,Dhaka,Pediatrician,Completed,740,11,2024-03-22,Middle Age (36-55),3,2024,Mar
+14,Male,Dhaka,Dermatologist,Completed,1045,7,2023-01-27,Child (0-17),1,2023,Jan
+77,Female,Chattogram,Orthopedic,No-show,1355,15,2024-03-11,Senior (56+),3,2024,Mar
+28,Male,Rajshahi,Gynecologist,Completed,1126,6,2023-04-16,Young Adult (18-35),4,2023,Apr
+68,Male,Dhaka,Dermatologist,Cancelled,1135,20,2024-11-17,Senior (56+),11,2024,Nov
+53,Female,Rajshahi,General Physician,No-show,412,9,2023-11-19,Middle Age (36-55),11,2023,Nov
+40,Male,Barishal,Pediatrician,Cancelled,909,20,2023-05-18,Middle Age (36-55),5,2023,May
+28,Male,Rajshahi,Dermatologist,Completed,1128,12,2024-03-03,Young Adult (18-35),3,2024,Mar
+27,Female,Khulna,Dermatologist,Cancelled,999,19,2023-06-21,Young Adult (18-35),6,2023,Jun
+66,Male,Sylhet,General Physician,No-show,430,20,2023-11-27,Senior (56+),11,2023,Nov
+41,Male,Rangpur,Cardiologist,Completed,1415,3,2024-12-26,Middle Age (36-55),12,2024,Dec
+16,Male,Rajshahi,Orthopedic,Completed,1236,15,2024-05-16,Child (0-17),5,2024,May
+59,Female,Sylhet,Gynecologist,Completed,1065,2,2023-03-06,Senior (56+),3,2023,Mar
+17,Female,Rangpur,Cardiologist,Completed,1499,2,2024-06-25,Child (0-17),6,2024,Jun
+27,Male,Mymensingh,Pediatrician,Completed,808,3,2024-06-12,Young Adult (18-35),6,2024,Jun
+34,Male,Dhaka,Dermatologist,Completed,1072,6,2023-08-11,Young Adult (18-35),8,2023,Aug
+21,Male,Chattogram,General Physician,Completed,636,15,2023-02-15,Young Adult (18-35),2,2023,Feb
+66,Male,Dhaka,General Physician,Completed,561,10,2024-01-15,Senior (56+),1,2024,Jan
+17,Female,Dhaka,Orthopedic,Completed,1315,9,2024-04-16,Child (0-17),4,2024,Apr
+63,Male,Rajshahi,Cardiologist,Completed,1663,1,2024-07-10,Senior (56+),7,2024,Jul
+23,Male,Khulna,Orthopedic,Completed,1362,16,2023-11-12,Young Adult (18-35),11,2023,Nov
+53,Female,Sylhet,Dermatologist,Completed,1191,6,2023-10-13,Middle Age (36-55),10,2023,Oct
+16,Female,Dhaka,Orthopedic,Completed,1373,9,2023-03-04,Child (0-17),3,2023,Mar
+65,Female,Barishal,Gynecologist,Cancelled,902,4,2023-03-07,Senior (56+),3,2023,Mar
+23,Male,Rajshahi,General Physician,Completed,427,2,2023-05-22,Young Adult (18-35),5,2023,May
+13,Male,Khulna,General Physician,Completed,548,4,2023-05-02,Child (0-17),5,2023,May
+75,Male,Mymensingh,Pediatrician,Cancelled,727,1,2023-10-26,Senior (56+),10,2023,Oct
+32,Male,Rajshahi,Pediatrician,Completed,764,19,2024-03-27,Young Adult (18-35),3,2024,Mar
+56,Female,Dhaka,Dermatologist,Completed,920,10,2024-09-27,Senior (56+),9,2024,Sep
+20,Female,Sylhet,Gynecologist,Cancelled,1151,15,2023-04-27,Young Adult (18-35),4,2023,Apr
+73,Female,Chattogram,Cardiologist,Cancelled,1634,19,2023-03-15,Senior (56+),3,2023,Mar
+16,Female,Dhaka,Orthopedic,Completed,1326,16,2023-11-08,Child (0-17),11,2023,Nov
+29,Male,Sylhet,Dermatologist,Completed,912,4,2024-02-07,Young Adult (18-35),2,2024,Feb
+56,Female,Dhaka,Pediatrician,No-show,748,2,2023-10-15,Senior (56+),10,2023,Oct
+57,Male,Sylhet,Orthopedic,Completed,1217,13,2024-11-23,Senior (56+),11,2024,Nov
+27,Female,Chattogram,Pediatrician,Completed,753,1,2024-09-14,Young Adult (18-35),9,2024,Sep
+20,Male,Barishal,Orthopedic,Cancelled,1237,17,2024-04-08,Young Adult (18-35),4,2024,Apr
+61,Male,Dhaka,Cardiologist,Completed,1452,13,2024-03-12,Senior (56+),3,2024,Mar
+43,Male,Rangpur,Dermatologist,Completed,943,4,2024-07-13,Middle Age (36-55),7,2024,Jul
+57,Female,Sylhet,Orthopedic,Completed,1152,7,2023-08-11,Senior (56+),8,2023,Aug
+46,Male,Dhaka,Gynecologist,Cancelled,973,17,2023-11-17,Middle Age (36-55),11,2023,Nov
+62,Male,Rajshahi,General Physician,Completed,445,9,2024-02-17,Senior (56+),2,2024,Feb
+43,Male,Rangpur,Gynecologist,Completed,912,4,2023-07-24,Middle Age (36-55),7,2023,Jul
+18,Female,Chattogram,Gynecologist,Completed,1064,19,2024-12-04,Young Adult (18-35),12,2024,Dec
+9,Female,Dhaka,General Physician,Completed,501,1,2024-05-21,Child (0-17),5,2024,May
+39,Female,Chattogram,Gynecologist,Completed,1179,10,2023-11-08,Middle Age (36-55),11,2023,Nov
+79,Male,Chattogram,Orthopedic,Cancelled,1357,4,2023-05-05,Senior (56+),5,2023,May
+22,Female,Khulna,Orthopedic,Completed,1237,9,2023-03-26,Young Adult (18-35),3,2023,Mar
+13,Male,Khulna,Orthopedic,Completed,1262,13,2023-05-16,Child (0-17),5,2023,May
+78,Female,Chattogram,General Physician,Cancelled,510,14,2023-12-04,Senior (56+),12,2023,Dec
+62,Female,Dhaka,Gynecologist,Completed,1001,10,2024-02-22,Senior (56+),2,2024,Feb
+21,Male,Rajshahi,General Physician,No-show,416,6,2023-04-15,Young Adult (18-35),4,2023,Apr
+11,Male,Chattogram,Orthopedic,Completed,1367,16,2023-06-12,Child (0-17),6,2023,Jun
+50,Male,Dhaka,Gynecologist,Completed,1081,6,2023-01-05,Middle Age (36-55),1,2023,Jan
+17,Male,Mymensingh,Gynecologist,Completed,923,17,2024-10-23,Child (0-17),10,2024,Oct
+44,Male,Khulna,Pediatrician,No-show,728,10,2023-04-16,Middle Age (36-55),4,2023,Apr
+46,Female,Khulna,Pediatrician,Completed,870,18,2024-06-14,Middle Age (36-55),6,2024,Jun
