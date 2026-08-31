@@ -1,6 +1,6 @@
 # Bangladesh Healthcare Appointment Analysis
 
-A healthcare analytics project analyzing 500 appointment records across 8 divisions of Bangladesh to identify appointment patterns, waiting-time trends and no-show behavior with a deeper operational performance review using Excel.
+A healthcare analytics project analyzing 500 appointment records across 8 divisions of Bangladesh to identify appointment patterns, waiting-time trends and no-show behavior, extended with predictive modeling to estimate no-show risk before an appointment happens with a deeper operational performance review using Excel.
 
 ---
 
@@ -20,6 +20,7 @@ I analyzed 500 appointment records to find patterns that could help healthcare p
 * **General Physicians** have the longest overall average wait time at **11.6 days**
 * **Senior patients (56+)** make up the largest patient group with **162 patients**
 * **Cardiologists** have the highest average consultation fee with **1557.8 BDT**
+* **Predictive modeling** (Logistic Regression, Decision Tree, Random Forest) achieved ROC-AUC scores of **0.52–0.59** — indicating the current feature set has only weak predictive power for No-show risk (see *Predictive Modeling* section below)
 
 ---
 
@@ -96,6 +97,26 @@ The dataset contains 500 patient appointment records with the following columns:
 
 ---
 
+## Predictive Modeling
+
+> Business question: given information available before an appointment, what is the probability the patient will not show up?
+
+Three classifiers were trained and compared on the same features, same stratified train/test split, and same preprocessing (`ColumnTransformer` + `Pipeline`):
+
+| Model | ROC-AUC |
+|---|---:|
+| Logistic Regression | 0.520 |
+| Decision Tree | 0.563 |
+| **Random Forest** | **0.585** |
+
+**Target:** `No-show` → 1, `Completed`/`Cancelled` → 0.
+
+**Features used:** `patient_age`, `patient_gender`, `division`, `doctor_specialty`, `wait_days`, plus `quarter`, `day_of_week`, `day_type`, and `month_name` engineered from `appointment_date`. `consultation_fee_bdt`, `age_group`, and raw `appointment_date`/`year` were deliberately excluded — see the leakage/redundancy discussion in `03_predictive_modeling.ipynb`.
+
+**Result:** Random Forest performed best, but all three models stayed close to the 0.5 random baseline — the available features don't yet separate No-shows from non-No-shows strongly. Predicted probabilities are converted into four risk bands (Low / Moderate / High / Very High) that a scheduling team could use for relative prioritization, but shouldn't yet be treated as reliable individual predictions. Full reasoning, limitations, and conclusion are in the notebook.
+
+---
+
 ## Project Structure
 
 Analysis and visualization are split into separate notebooks so each stays focused and easy to maintain. Power BI and Excel/Google Sheets versions of the dashboard are also included as standalone files — no code needed, just open them directly.
@@ -105,6 +126,8 @@ Analysis and visualization are split into separate notebooks so each stays focus
 | `python-analysis/01_analysis.ipynb` | Loads, cleans and analyzes the appointment data. Saves results to `analysis_results.pkl`. |
 | `python-analysis/02_visualization.ipynb` | Loads the pickled results and renders the 6-panel dashboard. |
 | `python-analysis/utils/filters.py` | `filter_appointments()` helper — applies the division/specialty filter used by `01_analysis.ipynb`. |
+| `python-analysis/03_predictive_modeling.ipynb` | Trains and compares Logistic Regression, Decision Tree, and Random Forest models to predict appointment no-shows. |
+| `data/appointments_clean.csv` | Cleaned dataset exported from `01_analysis.ipynb`; used as the input for predictive modeling. |
 | `powerbi/healthcare.pbix` | Interactive Power BI version of the dashboard. Open in Power BI Desktop. |
 | `excel-sheets/appointments.xlsx` | Data + formulas + pivot tables + lookup functions + charts. Open in Excel or Google Sheets to inspect every technique directly. |
 
@@ -119,6 +142,7 @@ Run the notebooks in order — `01` before `02`. The Power BI and Excel files ar
 * **Matplotlib** — visualizations
 * **Power BI** — interactive dashboard version
 * **Excel / Google Sheets** — formula-based analysis (COUNTIF, COUNTIFS, SUMIF, AVERAGEIF, UNIQUE), pivot tables and lookup functions
+* **Scikit-learn** — Logistic Regression, Decision Tree, Random Forest, `ColumnTransformer` + `Pipeline` for preprocessing
 
 ---
 
@@ -150,13 +174,19 @@ Establish a clear understanding of healthcare appointment patterns and identify 
 
 Extend the descriptive analysis into predictive modeling by exploring whether appointment no-shows can be identified before they occur.
 
-- Develop a model to **predict appointment no-shows**
+**Completed so far:**
+- Developed a model to **predict appointment no-shows**
+- Used features such as division, specialty, waiting time, age, and calendar-derived signals (quarter, day of week, day type, month)
+- Established an interpretable **Logistic Regression** baseline
+- Compared the baseline with **Decision Tree** and **Random Forest** models
+- Evaluated model performance using **ROC-AUC**
+- Interpreted the results in terms of their potential usefulness for appointment management rather than focusing only on predictive accuracy
+- Class-imbalance handling (e.g. `class_weight`, resampling) intentionally deferred to keep this stage a simple, interpretable baseline
+  
+**Planned next:**
 - Explore appropriate approaches for handling class imbalance, since no-shows represent a minority class
-- Use features such as division, specialty, waiting time, age group, and consultation fee
-- Establish an interpretable **Logistic Regression** baseline
-- Compare the baseline with a **Random Forest** model
-- Evaluate model performance using precision, recall, F1-score, confusion matrix, and ROC-AUC
-- Interpret the results in terms of their potential usefulness for appointment management rather than focusing only on predictive accuracy
+- Hyperparameter tuning for Decision Tree and Random Forest
+- Re-evaluate ROC-AUC after these improvements to see whether they meaningfully lift the current 0.52–0.59 range
 
 ### Stage 3 — Statistical Validation
 **Status: Planned**
