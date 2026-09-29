@@ -1,167 +1,292 @@
 # Bangladesh Healthcare Appointment Analysis
 
-A healthcare analytics project analyzing 500 appointment records across 8 divisions of Bangladesh to identify appointment patterns, waiting-time trends and no-show behavior, extended with predictive modeling to estimate no-show risk before an appointment happens with a deeper operational performance review using Excel.
+A healthcare analytics project based on **500 appointment records from 8 divisions of Bangladesh**. The project explores patient behavior, appointment attendance, waiting times, and the operational issues that may affect healthcare service delivery.
+
+The analysis was developed using **Python, Excel, and Power BI**, with the goal of turning raw appointment data into clear business insights. The project was then extended into predictive modeling to test whether the available data could be used to predict **patient no-shows** and **waiting times** before an appointment happens.
 
 ---
 
 ## What This Project Does
 
-I analyzed 500 appointment records to find patterns that could help healthcare providers understand patient behavior and improve service delivery.
+The project analyzes 500 healthcare appointment records to answer practical questions such as:
 
-> All key findings below reflect the full 500-record dataset. 
-> Can be scoped to a specific division/specialty via dynamic filtering — see below.
+* Where are appointments most frequently being missed?
+* Which specialties have the highest demand?
+* Which patients and divisions experience longer waiting times?
+* How does appointment activity change over time?
+* Can the available information be used to predict whether a patient will miss an appointment?
+* Can the available information be used to predict how many days a patient will have to wait?
 
-**Key findings:**
+### Key Findings
 
-* No strong linear correlations found between age, fee, wait time, or appointment timing (all under ~0.10) — motivates the hypothesis testing planned in Stage 3
-* Appointment completion rate is **68.6%**
-* **Dhaka** has the highest overall no-show rate at **14.6%** across the full dataset
-* **Pediatricians** are the most visited specialty with **92 appointments**
-* **General Physicians** have the longest overall average wait time at **11.6 days**
-* **Senior patients (56+)** make up the largest patient group with **162 patients**
-* **Cardiologists** have the highest average consultation fee with **1557.8 BDT**
-* **Predictive modeling** (Logistic Regression, Decision Tree, Random Forest, tuned via cross-validated `GridSearchCV`) — the best validated model (Random Forest) reached ROC-AUC **0.553**, indicating the current feature set has only weak predictive power for No-show risk (see *Predictive Modeling* section below)
+* The exploratory analysis found **no meaningful relationship between patient age, consultation fee, and waiting time**.
+* **68.6%** of appointments were completed.
+* **Dhaka** had the highest overall no-show rate at **14.6%**.
+* **Pediatricians** were the most frequently visited specialty, with **92 appointments**.
+* **General Physicians** had the longest average waiting time at **11.6 days**.
+* **Senior patients (56+)** were the largest age group, with **162 patients**.
+* Predictive modeling was tested for both no-shows and waiting times. The available data did not contain strong enough patterns to make reliable predictions.
 
 ---
 
 ## Visualizations
 
-Built a 6 panel dashboard covering all key analyses:
+### Excel — Detailed Business Analysis
 
-### Python (Matplotlib)
-The example below is rendered with `FILTER_DIVISION = "Dhaka"` active, so its numbers reflect Dhaka only (except No-show Rate by Division) — set both filters to `None` in `01_analysis.ipynb` for the full-dataset view.
+The Excel workbook goes beyond the initial summary analysis and provides a **detailed operational view of appointment activity, waiting times, and no-shows across 2023 and 2024**.
 
-![Healthcare Analysis](/python-analysis/healthcare_analysis.png)
+The workbook contains two focused dashboards:
 
-### Power BI (Interactive)
-![Power BI Dashboard](/powerbi/healthcare.png)
+#### 1. Waiting Time Dashboard
 
-A Power BI version of this dashboard is available in this repo at 
-`powerbi/healthcare.pbix` — open it in Power BI Desktop to interact with it directly.
+Examines patient waiting times across:
 
-### Excel (Detailed Business Analysis)
+* Divisions
+* Medical specialties
+* Age groups
+* Time periods
 
-The Excel workbook goes beyond reproducing the initial dashboard analyses. It conducted a **detailed operational analysis of patient waiting times and appointment no-shows**, comparing performance across **2023 and 2024**.
+The dashboard helps identify where patients are waiting longer and which areas require further investigation.
 
-The analysis examines changes across divisions, age groups and specialties and translates the findings into **business implications and suggested areas for further investigation**.
+#### 2. Appointment Volume and No-Show Dashboard
 
-A separate report was created based on this detailed Excel analysis:
+Combines appointment demand and attendance analysis, focusing on how appointment activity is distributed and where missed appointments occur:
 
-**[Detailed Analysis Report](https://drive.google.com/file/d/1d-OLGyjTmccbRypC3Rd5giu9S-_EOt4c/view?usp=sharing)**
+* Total appointments
+* Total no-shows
+* No-show rate
+* Division-level patterns
+* Specialty-level patterns
+* Age groups
+* Monthly trends
 
-Only selected dashboard visualizations are shown below for a quick overview. The complete set of visualizations, formulas, pivot tables, lookups and detailed analysis can be explored directly by opening the Excel workbook (`excel-sheets/appointments.xlsx`).
+The dashboard helps identify where and when appointment demand is concentrated and **where no-shows are concentrated and which patient groups or specialties may require closer attention**.
 
-![Excel Dashboard](/excel-sheets/image1.png)
-![Excel Dashboard](/excel-sheets/image2.png)
+The Excel analysis was used to produce a separate business-focused report comparing **2023 and 2024 performance**, including key findings, business implications, and suggested areas for further investigation.
 
+**Detailed Analysis Report:**
+[Detailed Analysis Report](https://drive.google.com/file/d/1d-OLGyjTmccbRypC3Rd5giu9S-_EOt4c/view?usp=sharing)
 
-| Chart                              | What It Shows                                                   |
-| ---------------------------------- | --------------------------------------------------------------- |
-| Appointment Status Distribution    | Pie chart of Completed / Cancelled / No-show rates              |
-| No-show Rate by Division           | Which divisions have the highest missed appointments            |
-| Appointments by Doctor's Specialty | Most in demand specialties across the dataset                   |
-| Average Wait Days by Specialty     | Which specialties make patients wait the longest                |
-| Patient Age Group Distribution     | Breakdown of Child, Young Adult, Middle Age and Senior patients |
-| Monthly Appointment Trend          | How appointment volume changed across the year                  |
+The complete Excel workbook contains the underlying data, formulas, PivotTables, lookups, and detailed analysis:
+
+`excel-sheets/appointments.xlsx`
+
+#### Excel Dashboard Screenshots
+
+<!-- Add Excel dashboard screenshots here -->
+
+![Excel Appointment Volume Dashboard](/excel-sheets/image1.png)
+
+![Excel Waiting Time / No-Show Dashboard](/excel-sheets/image2.png)
+
+---
+
+### Power BI — Interactive Dashboard
+
+An interactive Power BI dashboard is **coming soon**.
+
+The Power BI version will provide an interactive way to explore the same healthcare appointment data and findings.
 
 ---
 
 ## Dataset
 
-The dataset contains 500 patient appointment records with the following columns:
+The cleaned dataset (`data/appointments_clean.csv`) contains **500 healthcare appointment records**.
 
-| Column                 | Description                     |
-| ---------------------- | ------------------------------- |
-| `patient_age`          | Age of the patient              |
-| `patient_gender`       | Male / Female                   |
-| `division`             | One of 8 Bangladesh divisions   |
-| `specialty`            | Doctor specialty type (renamed to `doctor_specialty` during cleaning)                                                  |
-| `appointment_status`   | Completed / Cancelled / No-show |
-| `consultation_fee_bdt` | Fee in Bangladeshi Taka         |
-| `wait_days`            | Days waited before appointment  |
-| `appointment_date`     | Date of appointment (2023–2024) |
+| Column               | Description                                               |
+| -------------------- | --------------------------------------------------------- |
+| `Age`                | Age of the patient                                        |
+| `Gender`             | Male / Female                                             |
+| `Division`           | One of 8 divisions of Bangladesh                          |
+| `Doctor Specialty`   | Type of doctor seen, such as Pediatrician or Cardiologist |
+| `Appointment Status` | Completed / Cancelled / No-show                           |
+| `Consultation Fee`   | Consultation fee in Bangladeshi Taka (BDT)                |
+| `Wait Days`          | Number of days between booking and the appointment        |
+| `Appointment Date`   | Date of the appointment, covering 2023–2024               |
+
+Several additional fields were created during data preparation and used throughout the analysis:
+
+* **Age Group** — Child / Young Adult / Middle Age / Senior
+* **Day of Week** — The day on which the appointment took place
+* **Day Type** — Weekday / Weekend
+* **No Show Flag** — A simple indicator used for no-show analysis and predictive modeling
 
 ---
 
 ## Analysis Covered
 
-* Correlation analysis between patient age, consultation fee, wait days and appointment timing
-* Appointment status breakdown by division or specialty (Completed, Cancelled, No-show)
-* No-show rate by division (unaffected by filters — always full dataset)
-* Most in demand specialties
-* Average wait days by specialty or by division, if a specialty only filter is active
-* Patient age group distribution by division or specialty
-* Monthly appointment trend (2023–2024)
+The project covers the following areas:
 
-**Dynamic filtering:** `01_analysis.ipynb` has a `FILTER_DIVISION` / `FILTER_SPECIALTY` config near the top. Appointment status, average wait days, specialty demand, age distribution and monthly appointment trend re-scope to match; no-show rate by division intentionally stays on the full dataset for comparison context. The key findings above are always the full dataset, the Python dashboard image is committed with `FILTER_DIVISION = "Dhaka"` to demonstrate the filtering in action.
+* Relationship between patient age, consultation fee, and waiting time
+* Appointment status breakdown
+* No-show rate
+* Most frequently visited medical specialties
+* Average, total, maximum, and minimum waiting times
+* Patient age group distribution
+* Monthly appointment trends across 2023–2024
+* Year-over-year changes in waiting times and no-shows
+* Division, age-group, and specialty-level comparisons
+
+The deeper Excel analysis focuses particularly on **waiting times and no-shows**, helping translate the findings into practical business questions and areas for further investigation.
 
 ---
 
 ## Predictive Modeling
 
-> Business question: given information available before an appointment, what is the probability the patient will not show up?
+The project also tested whether the available appointment data could be used to make predictions **before an appointment happens**.
 
-Three classifiers — Logistic Regression, Decision Tree, and Random Forest — were trained on the same features, same stratified train/test split, and same preprocessing (`ColumnTransformer` + `Pipeline`), then tuned using `GridSearchCV` with cross-validation.
+Two prediction tasks were explored:
 
-| Model | Baseline ROC-AUC | Tuned ROC-AUC (cross-validated) |
-|---|---:|---:|
-| Logistic Regression | 0.519 | 0.511 |
-| Decision Tree | 0.563 | 0.532 |
-| **Random Forest** | **0.585** | **0.553** |
+1. **Predicting whether a patient will miss an appointment**
+2. **Predicting how many days a patient will have to wait**
 
-Random Forest performed best both before and after tuning, so the **tuned Random Forest (ROC-AUC 0.553)** was selected as the final model.
+The goal was not simply to build a model that produces a number. The goal was to find out whether the available information actually contains enough useful patterns to support reliable predictions.
 
-**Target:** `No-show` → 1, `Completed`/`Cancelled` → 0.
+### 1. Will the Patient Show Up?
 
-**Features used:** `patient_age`, `patient_gender`, `division`, `doctor_specialty`, `wait_days`, plus `quarter`, `day_of_week`, `day_type`, and `month_name` engineered from `appointment_date`. `consultation_fee_bdt`, `age_group`, and raw `appointment_date`/`year` were deliberately excluded — see the leakage/redundancy discussion in `03_predictive_modeling.ipynb`.
+**Business question:**
+Given information available before an appointment happens, can we predict whether a patient will miss the appointment?
 
-**Result:** Hyperparameter tuning and class-imbalance handling (`class_weight`) were tested for all three models but did not meaningfully improve ROC-AUC — a genuine finding. With only 56 No-show cases in the dataset, cross-validation itself is noisy, and no amount of tuning can substitute for more data. Predicted probabilities are converted into four risk bands (Low / Moderate / High / Very High) a scheduling team could use for relative prioritization, but shouldn't yet be treated as reliable individual predictions. Full reasoning, limitations, and conclusion are in the notebook.
+Three different approaches were tested:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+
+Each model was tested before and after fine-tuning.
+
+| Model               | Before Fine-Tuning | After Fine-Tuning |
+| ------------------- | -----------------: | ----------------: |
+| Logistic Regression |              0.595 |             0.584 |
+| Decision Tree       |              0.484 |             0.574 |
+| **Random Forest**   |              0.531 |         **0.588** |
+
+The scores above use **ROC-AUC**, a common measure for evaluating how well a model can perform. A score of **0.50 is roughly equivalent to random guessing**, while a score closer to **1.00 indicates stronger predictive ability**.
+
+The fine-tuned Random Forest achieved the highest score at **0.588**. This indicates that the available information provides only a **weak signal** about whether a patient will miss an appointment.
+
+The information used included:
+
+* Age Group
+* Gender
+* Division
+* Doctor Specialty
+* Wait Days
+* Quarter
+* Month
+* Day of Week
+* Weekday / Weekend
+
+The result suggests that these variables alone are **not sufficient for reliable no-show prediction**.
+
+The full analysis, model comparisons, and limitations are available in:
+
+`python-analysis/02_no_show_predictive_modeling.ipynb`
+
+---
+
+### 2. How Many Days Will the Patient Wait?
+
+**Business question:**
+Given information available when a patient books an appointment, can we predict how many days the patient will have to wait?
+
+Because waiting time is a number rather than a yes/no outcome, different prediction methods were used:
+
+* Linear Regression
+* Ridge Regression
+* Decision Tree
+* Random Forest
+* Gradient Boosting
+
+The models were also fine-tuned and compared.
+
+### Result
+
+Every model performed worse than simply using the **average waiting time** as the prediction for every patient.
+
+The best result came from the fine-tuned Gradient Boosting model, which achieved an **R² score of approximately -0.007**.
+
+In simple terms:
+
+* **R² = 0** means the model performs about as well as always predicting the average.
+* **Negative R²** means the model performs worse than that simple baseline.
+
+This indicates that the information available in the dataset does **not contain enough useful information to reliably predict waiting time**.
+
+The available information included factors such as:
+
+* Patient age
+* Gender
+* Division
+* Doctor Specialty
+* Booking date
+
+Waiting times are likely affected by operational factors that are not included in the dataset, such as:
+
+* Clinic capacity
+* Staff availability
+* Doctor workload
+* Scheduling patterns
+
+This is an important finding because it shows that **more complex modeling does not automatically produce useful predictions when the underlying data does not contain enough information**.
+
+The full analysis and limitations are available in:
+
+`python-analysis/03_wait_days_predictive_modeling.ipynb`
 
 ---
 
 ## Project Structure
 
-Analysis and visualization are split into separate notebooks so each stays focused and easy to maintain. Power BI and Excel/Google Sheets versions of the dashboard are also included as standalone files — no code needed, just open them directly.
+The project is divided into separate notebooks and files so that each part of the analysis remains focused and easy to explore.
 
-| File/Folder | Purpose |
-|---|---|
-| `python-analysis/01_analysis.ipynb` | Loads, cleans and analyzes the appointment data. Saves results to `analysis_results.pkl`. |
-| `python-analysis/02_visualization.ipynb` | Loads the pickled results and renders the 6-panel dashboard. |
-| `python-analysis/utils/filters.py` | `filter_appointments()` helper — applies the division/specialty filter used by `01_analysis.ipynb`. |
-| `python-analysis/03_predictive_modeling.ipynb` | Trains, tunes (via cross-validated `GridSearchCV`), and compares Logistic Regression, Decision Tree, and Random Forest models to predict appointment no-shows. |
-| `data/appointments_clean.csv` | Cleaned dataset exported from `01_analysis.ipynb`; used as the input for predictive modeling. |
-| `powerbi/healthcare.pbix` | Interactive Power BI version of the dashboard. Open in Power BI Desktop. |
-| `excel-sheets/appointments.xlsx` | Data + formulas + pivot tables + lookup functions + charts. Open in Excel or Google Sheets to inspect every technique directly. |
+| File / Folder                                            | Purpose                                                                                         |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `python-analysis/01_analysis.ipynb`                      | Loads the cleaned data, and explores the appointment data and produces some useful analysis              |
+| `python-analysis/02_no_show_predictive_modeling.ipynb`   | Builds and compares models for predicting patient no-shows                                      |
+| `python-analysis/03_wait_days_predictive_modeling.ipynb` | Builds and compares models for predicting patient waiting time                                  |
+| `python-analysis/utils/filters.py`                       | Helper function used to filter the analysis by division and specialty                           |
+| `data/appointments.csv`                                  | Original, unprocessed dataset                                                                   |
+| `data/appointments_clean.csv`                            | Cleaned dataset with additional calculated fields                                               |
+| `powerbi/healthcare.pbix`                                | Power BI dashboard file                                                                         |
+| `excel-sheets/appointments.xlsx`                         | Excel workbook containing the detailed analysis, formulas, PivotTables, lookups, and dashboards |
 
-Run the notebooks in order — `01` before `02`. The Power BI and Excel files are standalone and can be opened independently at any time.
+The Python notebooks should be run in order:
+
+`01_analysis.ipynb` → `02_no_show_predictive_modeling.ipynb` → `03_wait_days_predictive_modeling.ipynb`
+
+The Excel and Power BI files can be opened independently.
 
 ---
 
 ## Tech Stack
 
-* **Python** — core language
-* **Pandas** — data loading, cleaning and analysis
-* **Matplotlib** — visualizations
-* **Power BI** — interactive dashboard version
-* **Excel / Google Sheets** — formula-based analysis, pivot tables and lookup functions
-* **Scikit-learn** — Logistic Regression, Decision Tree, Random Forest, `ColumnTransformer` + `Pipeline` for preprocessing, `GridSearchCV` for cross-validated hyperparameter tuning
+* **Python** — Data analysis and preparation
+* **Pandas** — Data cleaning and analysis
+* **Matplotlib** — Data visualization
+* **Excel** — Detailed analysis, formulas, PivotTables, lookups, and dashboards
+* **Power BI** — Interactive dashboard development
+* **Scikit-learn** — Predictive modeling, model comparison, preprocessing, and fine-tuning
 
-### Overall Direction
+Models used:
 
-The project is intended to evolve progressively:
-
-**Descriptive Analytics → Predictive Analytics → Statistical Validation → Decision-Focused AI → Generalization**
-
-The broader objective is not simply to build a machine learning model, but to explore how **analytics and AI can support real-world operational decisions while keeping human judgment in the decision-making process**.
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Linear Regression
+* Ridge Regression
+* Gradient Boosting
 
 ---
 
 ## About
 
-Built by **Navidul Hoque** — a Backend Software Engineer transitioning into Data Science and AI.
+Built by **Navidul Hoque** — a Backend Software Engineer transitioned into Data Science and AI.
 
-This is one of my first hands-on data science projects as I work through a PGD in Data Science with ML & AI. Feedback and suggestions are welcome.
+This is one of my first hands-on data science projects while pursuing a **Post Graduate Diploma in Data Science with Machine Learning and Artificial Intelligence**.
 
-This README will be updated as the project evolves, with statistical validation (Stage 3) as the next development stage.
+The project reflects my interest in using **data, technology, and analytical thinking to understand real-world business and operational problems**.
+
+Feedback and suggestions are welcome.
 
 [LinkedIn](https://www.linkedin.com/in/navidul-hoque-04b850267)
