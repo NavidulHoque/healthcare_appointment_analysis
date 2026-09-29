@@ -50,13 +50,10 @@ The dashboard helps identify where patients are waiting longer and which areas r
 
 #### 2. Appointment Volume and No-Show Dashboard
 
-Combines appointment demand and attendance analysis, focusing on how appointment activity is distributed and where missed appointments occur:
+Combines appointment demand and attendance analysis, focusing on how appointment activity is distributed and where missed appointments occur across:
 
-* Total appointments
-* Total no-shows
-* No-show rate
-* Division-level patterns
-* Specialty-level patterns
+* Divisions
+* Medical specialties
 * Age groups
 * Monthly trends
 
@@ -127,7 +124,7 @@ The project covers the following areas:
 * Year-over-year changes in waiting times and no-shows
 * Division, age-group, and specialty-level comparisons
 
-The deeper Excel analysis focuses particularly on **waiting times and no-shows**, helping translate the findings into practical business questions and areas for further investigation.
+The deeper Excel analysis focuses particularly on waiting times and no-shows, helping connect the findings to practical business problems and areas for further investigation.
 
 ---
 
@@ -218,7 +215,7 @@ The models were also fine-tuned and compared.
 | Random Forest         |            -0.1296 |           -0.0421 |
 | **Gradient Boosting** |            -0.0909 |       **-0.0073** |
 
-The scores use **R²**, which shows how well a model predicts  waiting time. An **R² of 0** means the model performs about the same as simply predicting the average waiting time (Naive Mean baseline). A **negative R²** means the model performs worse than that baseline.
+The scores are called **R²**, which shows how well a model predicts  waiting time. An **R² of 0** means the model performs about the same as simply predicting the average waiting time (Naive Mean baseline). A **negative R²** means the model performs worse than that baseline.
 
 **No model outperformed the naive baseline, either before or after fine-tuning.** The fine-tuned Gradient Boosting model came closest, with an R² of **-0.0073**, but this is still effectively the same as predicting the average waiting time for every patient. This suggests that the available features contain **very little useful information for predicting waiting time**.
 
@@ -258,7 +255,7 @@ The project is divided into separate notebooks and files so that each part of th
 | `data/appointments.csv`                                  | Original, unprocessed dataset                                                                   |
 | `data/appointments_clean.csv`                            | Cleaned dataset with additional calculated fields                                               |
 | `powerbi/healthcare.pbix`                                | Power BI dashboard file                                                                         |
-| `excel-sheets/appointments.xlsx`                         | Excel workbook containing the detailed analysis, formulas, PivotTables, lookups, and dashboards |
+| `excel-sheets/appointments.xlsx`                         | Excel workbook containing the detailed analysis, formulas, PivotTables, and dashboards |
 
 The Python notebooks should be run in order:
 
@@ -273,7 +270,7 @@ The Excel and Power BI files can be opened independently.
 * **Python** — Data analysis and preparation
 * **Pandas** — Data cleaning and analysis
 * **Matplotlib** — Data visualization
-* **Excel** — Detailed analysis, formulas, PivotTables, lookups, and dashboards
+* **Excel** — Detailed analysis, formulas, PivotTables, and dashboards
 * **Power BI** — Interactive dashboard development
 * **Scikit-learn** — Predictive modeling, model comparison, preprocessing, and fine-tuning
 
