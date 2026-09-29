@@ -65,7 +65,7 @@ The dashboard helps identify where and when appointment demand is concentrated a
 The Excel analysis was used to produce a separate business-focused report comparing **2023 and 2024 performance**, including key findings, business implications, and suggested areas for further investigation.
 
 **Detailed Analysis Report:**
-[Detailed Analysis Report](https://drive.google.com/file/d/1d-OLGyjTmccbRypC3Rd5giu9S-_EOt4c/view?usp=sharing)
+[Detailed Analysis Report](https://drive.google.com/file/d/1PnTLh_ZEAL63WnPt3WAY5iU_O9Lr-JdM/view?usp=sharing)
 
 The complete Excel workbook contains the underlying data, formulas, PivotTables, lookups, and detailed analysis:
 
@@ -155,6 +155,8 @@ Three different approaches were tested:
 
 Each model was tested before and after fine-tuning.
 
+#### Result
+
 | Model               | Before Fine-Tuning | After Fine-Tuning |
 | ------------------- | -----------------: | ----------------: |
 | Logistic Regression |              0.595 |             0.584 |
@@ -163,7 +165,7 @@ Each model was tested before and after fine-tuning.
 
 The scores above use **ROC-AUC**, a common measure for evaluating how well a model can perform. A score of **0.50 is roughly equivalent to random guessing**, while a score closer to **1.00 indicates stronger predictive ability**.
 
-The fine-tuned Random Forest achieved the highest score at **0.588**. This indicates that the available information provides only a **weak signal** about whether a patient will miss an appointment.
+The fine-tuned Random Forest achieved the highest ROC-AUC score of **0.588**, indicating only weak predictive performance. This suggests that the available information is not sufficient for reliable no-show prediction.
 
 The information used included:
 
@@ -178,6 +180,11 @@ The information used included:
 * Weekday / Weekend
 
 The result suggests that these variables alone are **not sufficient for reliable no-show prediction**.
+
+Patient absence are likely affected by operational factors that are not included in the dataset, such as:
+
+* Reminder history
+* Travel distance
 
 The full analysis, model comparisons, and limitations are available in:
 
@@ -200,18 +207,20 @@ Because waiting time is a number rather than a yes/no outcome, different predict
 
 The models were also fine-tuned and compared.
 
-### Result
+#### Result
 
-Every model performed worse than simply using the **average waiting time** as the prediction for every patient.
+| Model                 | Before Fine-Tuning | After Fine-Tuning |
+| --------------------- | -----------------: | ----------------: |
+| Naive Mean baseline |            -0.0049 |           -0.0049 |
+| Linear Regression     |            -0.0670 |           -0.0670 |
+| Ridge Regression      |            -0.0655 |           -0.0192 |
+| Decision Tree         |            -1.2566 |           -0.0615 |
+| Random Forest         |            -0.1296 |           -0.0421 |
+| **Gradient Boosting** |            -0.0909 |       **-0.0073** |
 
-The best result came from the fine-tuned Gradient Boosting model, which achieved an **R² score of approximately -0.007**.
+The scores use **R²**, which shows how well a model predicts  waiting time. An **R² of 0** means the model performs about the same as simply predicting the average waiting time (Naive Mean baseline). A **negative R²** means the model performs worse than that baseline.
 
-In simple terms:
-
-* **R² = 0** means the model performs about as well as always predicting the average.
-* **Negative R²** means the model performs worse than that simple baseline.
-
-This indicates that the information available in the dataset does **not contain enough useful information to reliably predict waiting time**.
+**No model outperformed the naive baseline, either before or after fine-tuning.** The fine-tuned Gradient Boosting model came closest, with an R² of **-0.0073**, but this is still effectively the same as predicting the average waiting time for every patient. This suggests that the available features contain **very little useful information for predicting waiting time**.
 
 The available information included factors such as:
 
