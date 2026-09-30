@@ -232,7 +232,6 @@ Waiting times are likely affected by operational factors that are not included i
 * Clinic capacity
 * Staff availability
 * Doctor workload
-* Scheduling patterns
 
 This is an important finding because it shows that **more complex modeling does not automatically produce useful predictions when the underlying data does not contain enough information**.
 
